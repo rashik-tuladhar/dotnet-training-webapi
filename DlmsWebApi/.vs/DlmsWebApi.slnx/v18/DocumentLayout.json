@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C8E394-5CBF-4282-A111-D7DA56BB80B3}|DlmsWebApi\\DlmsWebApi.csproj|c:\\users\\swift\\onedrive\\desktop\\webapi\\dlmswebapi\\dlmswebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C8E394-5CBF-4282-A111-D7DA56BB80B3}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0C8E394-5CBF-4282-A111-D7DA56BB80B3}|DlmsWebApi\\DlmsWebApi.csproj|c:\\users\\swift\\onedrive\\desktop\\webapi\\dlmswebapi\\dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0C8E394-5CBF-4282-A111-D7DA56BB80B3}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T02:29:40.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\Program.cs",
+              "RelativeToolTip": "DlmsWebApi\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-31T02:16:40.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

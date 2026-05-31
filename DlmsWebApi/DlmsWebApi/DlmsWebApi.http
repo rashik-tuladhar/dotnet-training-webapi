@@ -1,0 +1,11 @@
+@DlmsWebApi_HostAddress = https://localhost:7017
+
+GET {{DlmsWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+
+GET {{DlmsWebApi_HostAddress}}/weatherforecast/get-string
+
+###
