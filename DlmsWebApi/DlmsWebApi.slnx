@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="DlmsWebApi.Business/DlmsWebApi.Business.csproj" Id="dedc20f8-5403-4de7-841f-0b9f54c89d47" />
+  <Project Path="DlmsWebApi.Extensions/DlmsWebApi.Extensions.csproj" Id="25b68ca4-ac2c-4614-aca9-4b416359e06b" />
+  <Project Path="DlmsWebApi.Repository/DlmsWebApi.Repository.csproj" Id="4a25f4ef-57d2-40c9-b49b-8866c98b3457" />
+  <Project Path="DlmsWebApi.Shared/DlmsWebApi.Shared.csproj" Id="5b598444-ffd0-4975-962e-28554419be95" />
   <Project Path="DlmsWebApi/DlmsWebApi.csproj" />
 </Solution>

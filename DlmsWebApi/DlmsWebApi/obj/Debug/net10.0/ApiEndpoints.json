@@ -1,5 +1,79 @@
 [
   {
+    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "Method": "Add",
+    "RelativePath": "api/author/add-author",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "DlmsWebApi.Shared.AuthorData.AuthorDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "Method": "Edit",
+    "RelativePath": "api/author/get-author-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "Method": "GetList",
+    "RelativePath": "api/author/get-author-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "Method": "Edit",
+    "RelativePath": "api/author/update-author-details",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "DlmsWebApi.Shared.AuthorData.AuthorDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/author/update-author-status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DlmsWebApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

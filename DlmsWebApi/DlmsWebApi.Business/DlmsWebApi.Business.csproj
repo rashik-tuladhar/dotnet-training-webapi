@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DlmsWebApi.Extensions\DlmsWebApi.Extensions.csproj" />
+    <ProjectReference Include="..\DlmsWebApi.Repository\DlmsWebApi.Repository.csproj" />
+    <ProjectReference Include="..\DlmsWebApi.Shared\DlmsWebApi.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
