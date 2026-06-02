@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using DlmsWebApi.Shared.CategoryData;
 
 namespace DlmsWebApi.Business.CategoryBusiness
 {
-    internal interface ICategoryBusiness
+    public interface ICategoryBusiness
     {
+        Task<bool> Add(CategoryDetails category);
+        Task<bool> Edit(CategoryDetails category);
+        Task<CategoryDetails?> GetDetails(int id);
+        Task<List<CategoryDetails?>> GetList();
+        Task<bool> UpdateStatus(int categoryId, string user);
     }
 }

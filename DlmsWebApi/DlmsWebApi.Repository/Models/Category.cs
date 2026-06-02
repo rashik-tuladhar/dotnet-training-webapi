@@ -1,16 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DlmsWebApi.Shared.CategoryData
+namespace DlmsWebApi.Repository.Models
 {
-    public class CategoryDetails
+    public class Category : BaseEntity
     {
+        [Key]
         public int CategoryId { get; set; }
-        public string? CategoryIdString { get; set; }
         [Required]
         public string Name { get; set; } = string.Empty;
         [Required]
         public string Description { get; set; } = string.Empty;
-        public string? Status { get; set; }
-        public string? User { get; set; }
     }
+
 }
