@@ -3,7 +3,7 @@ using DlmsWebApi.Extensions.StringHelper;
 using DlmsWebApi.Shared.AuthorData;
 using Microsoft.AspNetCore.Mvc;
 
-namespace LibrarySystem.Controllers
+namespace DlmsWebApi.Controllers
 {
     [ApiController]
     [Route("api/author")]
