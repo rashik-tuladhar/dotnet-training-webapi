@@ -7,6 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DlmsWebApi.Extensions\DlmsWebApi.Extensions.csproj" />
     <ProjectReference Include="..\DlmsWebApi.Repository\DlmsWebApi.Repository.csproj" />
     <ProjectReference Include="..\DlmsWebApi.Shared\DlmsWebApi.Shared.csproj" />

@@ -10,3 +10,18 @@ C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\ne
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\refint\DlmsWebApi.Shared.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfoInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfo.cs
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.sourcelink.json
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.dll
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\refint\DlmsWebApi.Shared.dll
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.deps.json
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.dll
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.runtimeconfig.json
+C:\Users\Lenovo\OneDrive\Desktop\.NET Pull\WebApi\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.genruntimeconfig.cache

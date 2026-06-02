@@ -1,10 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|c:\\users\\swift\\onedrive\\desktop\\webapi\\dlmswebapi\\dlmswebapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|c:\\users\\lenovo\\onedrive\\desktop\\.net pull\\webapi\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|c:\\users\\lenovo\\onedrive\\desktop\\.net pull\\webapi\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B598444-FFD0-4975-962E-28554419BE95}|DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj|c:\\users\\lenovo\\onedrive\\desktop\\.net pull\\webapi\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.shared\\bookdata\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B598444-FFD0-4975-962E-28554419BE95}|DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj|solutionrelative:dlmswebapi.shared\\bookdata\\bookdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B598444-FFD0-4975-962E-28554419BE95}|DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj|c:\\users\\lenovo\\onedrive\\desktop\\.net pull\\webapi\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.shared\\authordata\\authordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B598444-FFD0-4975-962E-28554419BE95}|DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj|solutionrelative:dlmswebapi.shared\\authordata\\authordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B68CA4-AC2C-4614-ACA9-4B416359E06B}|DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj|c:\\users\\lenovo\\onedrive\\desktop\\.net pull\\webapi\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.extensions\\stringhelper\\bookimagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B68CA4-AC2C-4614-ACA9-4B416359E06B}|DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj|solutionrelative:dlmswebapi.extensions\\stringhelper\\bookimagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B68CA4-AC2C-4614-ACA9-4B416359E06B}|DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj|c:\\users\\lenovo\\onedrive\\desktop\\.net pull\\webapi\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.extensions\\dlmswebapi.extensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{25B68CA4-AC2C-4614-ACA9-4B416359E06B}|DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj|solutionrelative:dlmswebapi.extensions\\dlmswebapi.extensions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|c:\\users\\lenovo\\onedrive\\desktop\\.net pull\\webapi\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|c:\\users\\lenovo\\onedrive\\desktop\\.net pull\\webapi\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.business\\bookbusiness\\ibookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|solutionrelative:dlmswebapi.business\\bookbusiness\\ibookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -13,18 +41,130 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 229,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\BookController.cs*",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\BookController.cs*",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAowHsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:24:49.668Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\AuthorData\\AuthorDetails.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Shared\\AuthorData\\AuthorDetails.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\AuthorData\\AuthorDetails.cs",
+              "RelativeToolTip": "DlmsWebApi.Shared\\AuthorData\\AuthorDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T15:29:57.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookImageHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\StringHelper\\BookImageHelper.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Extensions\\StringHelper\\BookImageHelper.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\StringHelper\\BookImageHelper.cs",
+              "RelativeToolTip": "DlmsWebApi.Extensions\\StringHelper\\BookImageHelper.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T14:10:17.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\BookData\\BookDetails.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Shared\\BookData\\BookDetails.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\BookData\\BookDetails.cs",
+              "RelativeToolTip": "DlmsWebApi.Shared\\BookData\\BookDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T14:02:45.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DlmsWebApi.Extensions",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+              "RelativeDocumentMoniker": "DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+              "RelativeToolTip": "DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-02T14:48:30.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Program.cs",
+              "RelativeToolTip": "DlmsWebApi\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:47:12.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IBookBusiness.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
+              "RelativeToolTip": "DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:39:37.376Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 171,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\.NET Pull\\WebApi\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
               "RelativeToolTip": "DlmsWebApi\\Controllers\\AuthorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAswDwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-01T02:58:10.859Z",
               "EditorCaption": ""

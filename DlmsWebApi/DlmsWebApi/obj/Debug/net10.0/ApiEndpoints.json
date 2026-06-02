@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
     "Method": "Add",
     "RelativePath": "api/author/add-author",
     "HttpMethod": "POST",
@@ -16,7 +16,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
     "Method": "Edit",
     "RelativePath": "api/author/get-author-details",
     "HttpMethod": "GET",
@@ -32,7 +32,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
     "Method": "GetList",
     "RelativePath": "api/author/get-author-list",
     "HttpMethod": "GET",
@@ -42,7 +42,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
     "Method": "Edit",
     "RelativePath": "api/author/update-author-details",
     "HttpMethod": "PUT",
@@ -58,9 +58,104 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "LibrarySystem.Controllers.AuthorController",
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
     "Method": "UpdateStatus",
     "RelativePath": "api/author/update-author-status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.BookController",
+    "Method": "ViewSecureImage",
+    "RelativePath": "api/book",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "signature",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.BookController",
+    "Method": "AddBook",
+    "RelativePath": "api/book/add-book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "DlmsWebApi.Shared.BookData.BookDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.BookController",
+    "Method": "EditBook",
+    "RelativePath": "api/book/get-book-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.BookController",
+    "Method": "GetList",
+    "RelativePath": "api/book/get-book-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.BookController",
+    "Method": "EditBook",
+    "RelativePath": "api/book/update-book-details",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "book",
+        "Type": "DlmsWebApi.Shared.BookData.BookDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.BookController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/book/update-book-status",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
