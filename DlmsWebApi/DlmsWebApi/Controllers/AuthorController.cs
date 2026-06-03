@@ -1,5 +1,6 @@
 using DlmsWebApi.Business.AuthorBusiness;
 using DlmsWebApi.Extensions.StringHelper;
+using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,7 +22,15 @@ namespace LibrarySystem.Controllers
         public async Task<IActionResult> GetList()
         {
             var authorList = await _authorBusiness.GetList();
-            return Ok(authorList);
+            // ApiResponse<List<AuthorDetails>> response = new ApiResponse<List<AuthorDetails>>();
+            // response.Success = true;
+            // response.Message = "Success";
+            // response.Data = authorList;
+            // return Ok(response);
+            
+            return Ok(ApiResponse<List<AuthorDetails>>.SuccessMessage(authorList,"this is success message"));
+            
+            
         }
 
         [HttpPost]
@@ -43,10 +52,28 @@ namespace LibrarySystem.Controllers
         [Route("get-author-details")]
         public async Task<IActionResult> Edit([FromQuery] string id)
         {
-            var authorId = Convert.ToInt32(EncryptionHelper.Decrypt(id));
-            var authorDetails = await _authorBusiness.GetDetails(authorId);
-            authorDetails.AuthorIdString = EncryptionHelper.Encrypt(authorDetails.AuthorId.ToString());
-            return Ok(authorDetails);
+            ApiResponse<AuthorDetails> response = new ApiResponse<AuthorDetails>();
+            try
+            {
+                var authorId = Convert.ToInt32(EncryptionHelper.Decrypt(id));
+                var authorDetails = await _authorBusiness.GetDetails(authorId);
+                authorDetails.AuthorIdString = EncryptionHelper.Encrypt(authorDetails.AuthorId.ToString());
+                response.Success = true;
+                response.Message = "Success";
+                response.Data = authorDetails;
+                return Ok(response);
+            }
+            catch (Exception e)
+            {
+                response.Success = false;
+                response.Message = "Failed to get author details";
+                response.Data = null;
+                List<string> errors = new List<string>();
+                errors.Add(e.Message);
+                response.Errors = errors;
+                return BadRequest(response);
+            }
+            
         }
 
         [HttpPut]
