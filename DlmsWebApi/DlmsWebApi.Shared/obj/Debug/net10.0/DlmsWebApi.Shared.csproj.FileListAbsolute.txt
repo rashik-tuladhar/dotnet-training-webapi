@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Shared/bin/Debug/net10.0/DlmsWebApi.Shared.deps.json
 C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Shared/bin/Debug/net10.0/DlmsWebApi.Shared.dll
 C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Shared/bin/Debug/net10.0/DlmsWebApi.Shared.pdb
@@ -22,3 +23,30 @@ C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/ne
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/refint/DlmsWebApi.Shared.dll
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/DlmsWebApi.Shared.pdb
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/ref/DlmsWebApi.Shared.dll
+=======
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.deps.json
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.dll
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfoInputs.cache
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfo.cs
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.CoreCompileInputs.cache
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.sourcelink.json
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.dll
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\refint\DlmsWebApi.Shared.dll
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.deps.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.AssemblyReference.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfoInputs.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfo.cs
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.CoreCompileInputs.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.sourcelink.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\refint\DlmsWebApi.Shared.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll
+>>>>>>> 4d57942 (bookadd)

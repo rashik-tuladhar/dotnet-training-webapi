@@ -26,6 +26,50 @@
           }
         }
       },
+      "Microsoft.AspNet.Mvc/5.3.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.3.0",
+          "Microsoft.AspNet.WebPages": "3.3.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "assemblyVersion": "5.3.0.0",
+            "fileVersion": "5.3.61130.707"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.3.0": {
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61130.707"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.3.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.3.0",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61130.707"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61130.707"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61130.707"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.61130.707"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/10.0.7": {
         "runtime": {
           "lib/net10.0/Microsoft.AspNetCore.Cryptography.Internal.dll": {
@@ -42,6 +86,17 @@
           "lib/net10.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.726.21808"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.7"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.1722.21507"
           }
         }
       },
@@ -645,6 +700,14 @@
           }
         }
       },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20105.407"
+          }
+        }
+      },
       "Mono.TextTemplating/3.0.0": {
         "dependencies": {
           "System.CodeDom": "6.0.0"
@@ -883,6 +946,10 @@
         }
       },
       "DlmsWebApi.Shared/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": "5.3.0",
+          "Microsoft.AspNetCore.Http.Features": "5.0.17"
+        },
         "runtime": {
           "DlmsWebApi.Shared.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -905,6 +972,27 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
+    "Microsoft.AspNet.Mvc/5.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q1LcXRqTPmbXJAdf45PsxI6JYnCQP4vBfPCgDFd4dYf8ojxFTo4PH333PC4TzbOqRHxrUWGwgBdcR5T2jNwpHQ==",
+      "path": "microsoft.aspnet.mvc/5.3.0",
+      "hashPath": "microsoft.aspnet.mvc.5.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.Razor/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5vJ0UKE/n381qcaKwFHxCwzb/YVuHzrm155iTgQhiv7+xdg2PE+54u+NPqu6C9AeRVOiwbh8/EOZwD16bLvWkg==",
+      "path": "microsoft.aspnet.razor/3.3.0",
+      "hashPath": "microsoft.aspnet.razor.3.3.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2ATJrA8KNx2EpBWNjwy4P+NjQ06cZWjYsTZ5NqGNIHaU/i3NKmtpoaE90NGmVRaKF5rryGfADnvPQ56f61OuWg==",
+      "path": "microsoft.aspnet.webpages/3.3.0",
+      "hashPath": "microsoft.aspnet.webpages.3.3.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/10.0.7": {
       "type": "package",
       "serviceable": true,
@@ -918,6 +1006,13 @@
       "sha512": "sha512-qwLYWCaxt23MF7ea/rIDvaRg3oyi6O51nU1YivAuBojrAvUjROHeIpIBxHaWvpH3WoWFf9lX5V40ufo/KKp5ZQ==",
       "path": "microsoft.aspnetcore.cryptography.keyderivation/10.0.7",
       "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.10.0.7.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "hashPath": "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/10.0.7": {
       "type": "package",
@@ -1142,6 +1237,13 @@
       "sha512": "sha512-oNv2JtYXhpdJrX63nibx1JT3uCESOBQ1LAk7Dtz/sr0+laW0KRM6eKp4CZ3MHDR2siIkKsY8MmUkeP5DKkQQ5w==",
       "path": "microsoft.visualstudio.solutionpersistence/1.0.52",
       "hashPath": "microsoft.visualstudio.solutionpersistence.1.0.52.nupkg.sha512"
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
     },
     "Mono.TextTemplating/3.0.0": {
       "type": "package",

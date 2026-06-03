@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Extensions/DlmsWebApi.Extensions.csproj": {}
   },
   "projects": {
@@ -12,9 +13,28 @@
         "projectPath": "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Extensions/DlmsWebApi.Extensions.csproj",
         "packagesPath": "/Users/rashiktuladhar/.nuget/packages/",
         "outputPath": "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Extensions/obj/",
+=======
+    "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {}
+  },
+  "projects": {
+    "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+        "projectName": "DlmsWebApi.Extensions",
+        "projectPath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+        "packagesPath": "C:\\Users\\reply\\.nuget\\packages\\",
+        "outputPath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\obj\\",
+>>>>>>> 4d57942 (bookadd)
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "/Users/rashiktuladhar/.nuget/NuGet/NuGet.Config"
+=======
+          "C:\\Users\\reply\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 4d57942 (bookadd)
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -38,7 +58,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
+<<<<<<< HEAD
         "SdkAnalysisLevel": "10.0.100"
+=======
+        "SdkAnalysisLevel": "10.0.200"
+>>>>>>> 4d57942 (bookadd)
       },
       "frameworks": {
         "net10.0": {
@@ -59,7 +83,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+>>>>>>> 4d57942 (bookadd)
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

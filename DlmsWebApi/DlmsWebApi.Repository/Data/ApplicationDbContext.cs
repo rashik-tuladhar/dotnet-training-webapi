@@ -12,6 +12,7 @@ namespace DlmsWebApi.Repository.Data
 
 
         public DbSet<Author> Author { get; set; }
+        public DbSet<Book> Books { get; set; }
 
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)

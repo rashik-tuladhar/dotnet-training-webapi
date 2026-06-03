@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "lV99XQMhQGY=",
   "success": true,
   "projectFilePath": "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Extensions/DlmsWebApi.Extensions.csproj",
+=======
+  "dgSpecHash": "4uxF66Cufoo=",
+  "success": true,
+  "projectFilePath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+>>>>>>> 4d57942 (bookadd)
   "expectedPackageFiles": [],
   "logs": []
 }

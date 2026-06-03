@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/DlmsWebApi.Shared.csproj": {}
   },
   "projects": {
@@ -12,9 +13,28 @@
         "projectPath": "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/DlmsWebApi.Shared.csproj",
         "packagesPath": "/Users/rashiktuladhar/.nuget/packages/",
         "outputPath": "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/",
+=======
+    "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {}
+  },
+  "projects": {
+    "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
+        "projectName": "DlmsWebApi.Shared",
+        "projectPath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
+        "packagesPath": "C:\\Users\\reply\\.nuget\\packages\\",
+        "outputPath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\obj\\",
+>>>>>>> 4d57942 (bookadd)
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "/Users/rashiktuladhar/.nuget/NuGet/NuGet.Config"
+=======
+          "C:\\Users\\reply\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 4d57942 (bookadd)
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -38,11 +58,25 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
+<<<<<<< HEAD
         "SdkAnalysisLevel": "10.0.100"
+=======
+        "SdkAnalysisLevel": "10.0.200"
+>>>>>>> 4d57942 (bookadd)
       },
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +93,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+>>>>>>> 4d57942 (bookadd)
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

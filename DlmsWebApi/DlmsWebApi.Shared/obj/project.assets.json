@@ -1,26 +1,261 @@
 {
   "version": 3,
   "targets": {
-    "net10.0": {}
+    "net10.0": {
+      "Microsoft.AspNet.Mvc/5.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.3.0",
+          "Microsoft.AspNet.WebPages": "3.3.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Mvc.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.Razor/3.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/System.Web.Razor.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Razor.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.AspNet.WebPages/3.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Razor": "3.3.0",
+          "Microsoft.Web.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "related": ".Deployment.xml;.Razor.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/System.Web.Helpers.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Deployment.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.Razor.dll": {
+            "related": ".xml"
+          },
+          "lib/net45/System.Web.WebPages.dll": {
+            "related": ".Deployment.xml;.Razor.xml;.xml"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/5.0.17": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Web.Infrastructure/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Web.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Microsoft.AspNet.Mvc/5.3.0": {
+      "sha512": "Q1LcXRqTPmbXJAdf45PsxI6JYnCQP4vBfPCgDFd4dYf8ojxFTo4PH333PC4TzbOqRHxrUWGwgBdcR5T2jNwpHQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.mvc/5.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Mvc.dll",
+        "lib/net45/System.Web.Mvc.xml",
+        "microsoft.aspnet.mvc.5.3.0.nupkg.sha512",
+        "microsoft.aspnet.mvc.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Razor/3.3.0": {
+      "sha512": "5vJ0UKE/n381qcaKwFHxCwzb/YVuHzrm155iTgQhiv7+xdg2PE+54u+NPqu6C9AeRVOiwbh8/EOZwD16bLvWkg==",
+      "type": "package",
+      "path": "microsoft.aspnet.razor/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Razor.dll",
+        "lib/net45/System.Web.Razor.xml",
+        "microsoft.aspnet.razor.3.3.0.nupkg.sha512",
+        "microsoft.aspnet.razor.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebPages/3.3.0": {
+      "sha512": "2ATJrA8KNx2EpBWNjwy4P+NjQ06cZWjYsTZ5NqGNIHaU/i3NKmtpoaE90NGmVRaKF5rryGfADnvPQ56f61OuWg==",
+      "type": "package",
+      "path": "microsoft.aspnet.webpages/3.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Web.config.install.xdt",
+        "Content/Web.config.uninstall.xdt",
+        "NET.icon.png",
+        "NET_Library_EULA_ENU.txt",
+        "lib/net45/System.Web.Helpers.dll",
+        "lib/net45/System.Web.Helpers.xml",
+        "lib/net45/System.Web.WebPages.Deployment.dll",
+        "lib/net45/System.Web.WebPages.Deployment.xml",
+        "lib/net45/System.Web.WebPages.Razor.dll",
+        "lib/net45/System.Web.WebPages.Razor.xml",
+        "lib/net45/System.Web.WebPages.dll",
+        "lib/net45/System.Web.WebPages.xml",
+        "microsoft.aspnet.webpages.3.3.0.nupkg.sha512",
+        "microsoft.aspnet.webpages.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Http.Features/5.0.17": {
+      "sha512": "3jG2xS+dx8DDCGV/F+STdPTg89lX3ao3dF/VEPvJaz3wzBIjuadipTtYNEXDIVuOPZwb6jdmhrX9jkzOIBm5cw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.http.features/5.0.17",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net461/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/net5.0/Microsoft.AspNetCore.Http.Features.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Http.Features.xml",
+        "microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+        "microsoft.aspnetcore.http.features.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/5.0.1": {
+      "sha512": "5WPSmL4YeP7eW+Vc8XZ4DwjYWBAiSwDV9Hm63JJWcz1Ie3Xjv4KuJXzgCstj48LkLfVCYa7mLcx7y+q6yqVvtw==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/5.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Web.Infrastructure/1.0.0": {
+      "sha512": "FNmvLn5m2LTU/Rs2KWVo0SIIh9Ek+U0ojex7xeDaSHw/zgEP77A8vY5cVWgUtBGS8MJfDGNn8rpXJWEIQaPwTg==",
+      "type": "package",
+      "path": "microsoft.web.infrastructure/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.Web.Infrastructure.dll",
+        "microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+        "microsoft.web.infrastructure.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net10.0": []
+    "net10.0": [
+      "Microsoft.AspNet.Mvc >= 5.3.0",
+      "Microsoft.AspNetCore.Http.Features >= 5.0.17"
+    ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/rashiktuladhar/.nuget/packages/": {}
+=======
+    "C:\\Users\\reply\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> 4d57942 (bookadd)
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/DlmsWebApi.Shared.csproj",
       "projectName": "DlmsWebApi.Shared",
       "projectPath": "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/DlmsWebApi.Shared.csproj",
       "packagesPath": "/Users/rashiktuladhar/.nuget/packages/",
       "outputPath": "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/",
+=======
+      "projectUniqueName": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
+      "projectName": "DlmsWebApi.Shared",
+      "projectPath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
+      "packagesPath": "C:\\Users\\reply\\.nuget\\packages\\",
+      "outputPath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\obj\\",
+>>>>>>> 4d57942 (bookadd)
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "/Users/rashiktuladhar/.nuget/NuGet/NuGet.Config"
+=======
+        "C:\\Users\\reply\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 4d57942 (bookadd)
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -44,11 +279,25 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
+<<<<<<< HEAD
       "SdkAnalysisLevel": "10.0.100"
+=======
+      "SdkAnalysisLevel": "10.0.200"
+>>>>>>> 4d57942 (bookadd)
     },
     "frameworks": {
       "net10.0": {
         "targetAlias": "net10.0",
+        "dependencies": {
+          "Microsoft.AspNet.Mvc": {
+            "target": "Package",
+            "version": "[5.3.0, )"
+          },
+          "Microsoft.AspNetCore.Http.Features": {
+            "target": "Package",
+            "version": "[5.0.17, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -65,7 +314,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
+>>>>>>> 4d57942 (bookadd)
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -342,5 +595,47 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Mvc 5.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Razor 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages 3.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

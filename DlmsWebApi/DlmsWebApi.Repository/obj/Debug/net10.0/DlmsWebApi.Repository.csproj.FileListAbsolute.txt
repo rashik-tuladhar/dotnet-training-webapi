@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.csproj.AssemblyReference.cache
 C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.GeneratedMSBuildEditorConfig.editorconfig
 C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.AssemblyInfoInputs.cache
@@ -34,3 +35,41 @@ C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Repository/obj/Debu
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.pdb
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.genruntimeconfig.cache
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/ref/DlmsWebApi.Repository.dll
+=======
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.csproj.AssemblyReference.cache
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.AssemblyInfoInputs.cache
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.AssemblyInfo.cs
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.csproj.CoreCompileInputs.cache
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.sourcelink.json
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.deps.json
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.runtimeconfig.json
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.dll
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.pdb
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Shared.dll
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebA.1E371F99.Up2Date
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.dll
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\refint\DlmsWebApi.Repository.dll
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.pdb
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.genruntimeconfig.cache
+C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\ref\DlmsWebApi.Repository.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.deps.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.runtimeconfig.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Shared.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.csproj.AssemblyReference.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.AssemblyInfoInputs.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.AssemblyInfo.cs
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.csproj.CoreCompileInputs.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.sourcelink.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebA.1E371F99.Up2Date
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\refint\DlmsWebApi.Repository.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.genruntimeconfig.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\ref\DlmsWebApi.Repository.dll
+>>>>>>> 4d57942 (bookadd)
