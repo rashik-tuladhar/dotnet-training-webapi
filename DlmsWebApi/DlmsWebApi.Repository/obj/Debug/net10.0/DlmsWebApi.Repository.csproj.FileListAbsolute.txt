@@ -27,7 +27,6 @@ C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Repository/obj/Debu
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.AssemblyInfoInputs.cache
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.AssemblyInfo.cs
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.csproj.CoreCompileInputs.cache
-/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.sourcelink.json
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebA.1E371F99.Up2Date
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/DlmsWebApi.Repository.dll
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Repository/obj/Debug/net10.0/refint/DlmsWebApi.Repository.dll

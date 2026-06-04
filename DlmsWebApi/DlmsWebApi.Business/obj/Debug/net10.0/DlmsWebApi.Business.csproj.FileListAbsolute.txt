@@ -32,7 +32,6 @@ C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Business/bin/Debug/
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Business/obj/Debug/net10.0/DlmsWebApi.Business.AssemblyInfoInputs.cache
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Business/obj/Debug/net10.0/DlmsWebApi.Business.AssemblyInfo.cs
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Business/obj/Debug/net10.0/DlmsWebApi.Business.csproj.CoreCompileInputs.cache
-/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Business/obj/Debug/net10.0/DlmsWebApi.Business.sourcelink.json
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Business/obj/Debug/net10.0/DlmsWebA.D3B250C3.Up2Date
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Business/obj/Debug/net10.0/DlmsWebApi.Business.dll
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Business/obj/Debug/net10.0/refint/DlmsWebApi.Business.dll

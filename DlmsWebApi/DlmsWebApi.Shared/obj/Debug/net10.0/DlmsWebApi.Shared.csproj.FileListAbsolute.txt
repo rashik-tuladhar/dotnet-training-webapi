@@ -17,7 +17,6 @@ C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/ne
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/DlmsWebApi.Shared.AssemblyInfoInputs.cache
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/DlmsWebApi.Shared.AssemblyInfo.cs
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/DlmsWebApi.Shared.csproj.CoreCompileInputs.cache
-/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/DlmsWebApi.Shared.sourcelink.json
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/DlmsWebApi.Shared.dll
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/refint/DlmsWebApi.Shared.dll
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/obj/Debug/net10.0/DlmsWebApi.Shared.pdb

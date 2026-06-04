@@ -303,7 +303,6 @@ C:/Users/swift/OneDrive/Desktop/WebAPI/DlmsWebApi/DlmsWebApi/bin/Debug/net10.0/z
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi/obj/Debug/net10.0/DlmsWebApi.csproj.CoreCompileInputs.cache
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi/obj/Debug/net10.0/DlmsWebApi.MvcApplicationPartsAssemblyInfo.cs
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi/obj/Debug/net10.0/DlmsWebApi.MvcApplicationPartsAssemblyInfo.cache
-/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi/obj/Debug/net10.0/DlmsWebApi.sourcelink.json
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi/obj/Debug/net10.0/rjimswa.dswa.cache.json
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
 /Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
