@@ -482,6 +482,7 @@ C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\r
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+>>>>>>> 4d57942 (bookadd)
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\appsettings.Development.json
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\appsettings.json
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\DlmsWebApi.staticwebassets.endpoints.json
@@ -650,4 +651,3 @@ E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debu
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\DlmsWebApi.pdb
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\DlmsWebApi.genruntimeconfig.cache
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\ref\DlmsWebApi.dll
->>>>>>> 4d57942 (bookadd)

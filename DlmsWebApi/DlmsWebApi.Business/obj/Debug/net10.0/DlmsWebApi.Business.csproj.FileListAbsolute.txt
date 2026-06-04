@@ -60,6 +60,7 @@ C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Business\obj\Debug\
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\ref\DlmsWebApi.Business.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Extensions.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Extensions.pdb
+>>>>>>> 4d57942 (bookadd)
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Business.deps.json
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Business.dll
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Business.pdb
@@ -80,4 +81,3 @@ E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\refint\DlmsWebApi.Business.dll
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebApi.Business.pdb
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\ref\DlmsWebApi.Business.dll
->>>>>>> 4d57942 (bookadd)

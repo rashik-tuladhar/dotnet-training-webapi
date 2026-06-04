@@ -402,7 +402,10 @@
             "format": "int32"
           },
           "authorIdString": {
-            "type": "string"
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "firstName": {
             "type": "string"

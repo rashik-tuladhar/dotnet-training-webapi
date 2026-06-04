@@ -1,12 +1,5 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "y5Wyk19QXhw=",
-  "success": true,
-  "projectFilePath": "/Users/rashiktuladhar/Desktop/KMC/dotnet-training-webapi/DlmsWebApi/DlmsWebApi.Shared/DlmsWebApi.Shared.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
-=======
   "dgSpecHash": "Tvc1xKtgyek=",
   "success": true,
   "projectFilePath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
@@ -68,5 +61,4 @@
       ]
     }
   ]
->>>>>>> 4d57942 (bookadd)
 }
