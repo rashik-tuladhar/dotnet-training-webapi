@@ -36,22 +36,7 @@ C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\ne
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\refint\DlmsWebApi.Shared.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll
-<<<<<<< HEAD
 >>>>>>> 4d57942 (bookadd)
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.deps.json
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.dll
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.AssemblyReference.cache
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.GeneratedMSBuildEditorConfig.editorconfig
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfoInputs.cache
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfo.cs
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.CoreCompileInputs.cache
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.sourcelink.json
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.dll
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\refint\DlmsWebApi.Shared.dll
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll
-=======
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.deps.json
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.dll
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
@@ -65,3 +50,16 @@ C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll
 >>>>>>> publication
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.deps.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.AssemblyReference.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfoInputs.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfo.cs
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.CoreCompileInputs.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.sourcelink.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\refint\DlmsWebApi.Shared.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll

@@ -58,6 +58,29 @@ namespace DlmsWebApi.Repository.Migrations
                 {
                     table.PrimaryKey("PK_Books", x => x.BookId);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Publication",
+                columns: table => new
+                {
+                    PublicationId = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    PublicationName = table.Column<string>(type: "TEXT", nullable: false),
+                    PublicationAddress = table.Column<string>(type: "TEXT", nullable: false),
+                    ContactPersonName = table.Column<string>(type: "TEXT", nullable: false),
+                    ContactPhone = table.Column<string>(type: "TEXT", nullable: false),
+                    PublicationEmail = table.Column<string>(type: "TEXT", nullable: false),
+                    PublicationWebsite = table.Column<string>(type: "TEXT", nullable: true),
+                    CreatedDate = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    CreatedBy = table.Column<string>(type: "TEXT", nullable: true),
+                    ModifiedDate = table.Column<DateTime>(type: "TEXT", nullable: true),
+                    ModifiedBy = table.Column<string>(type: "TEXT", nullable: true),
+                    Status = table.Column<string>(type: "TEXT", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Publication", x => x.PublicationId);
+                });
         }
 
         /// <inheritdoc />
@@ -68,6 +91,9 @@ namespace DlmsWebApi.Repository.Migrations
 
             migrationBuilder.DropTable(
                 name: "Books");
+
+            migrationBuilder.DropTable(
+                name: "Publication");
         }
     }
 }

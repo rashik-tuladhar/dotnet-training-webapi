@@ -16,7 +16,6 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
     "ContainingType": "DlmsWebApi.Controllers.AuthorController",
     "Method": "Edit",
     "RelativePath": "api/author/get-author-details",
@@ -34,9 +33,6 @@
   },
   {
     "ContainingType": "DlmsWebApi.Controllers.AuthorController",
-=======
-    "ContainingType": "LibrarySystem.Controllers.AuthorController",
->>>>>>> publication
     "Method": "GetList",
     "RelativePath": "api/author/get-author-list",
     "HttpMethod": "GET",
@@ -78,7 +74,6 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
     "ContainingType": "DlmsWebApi.Controllers.BookController",
     "Method": "ViewSecureImage",
     "RelativePath": "api/book",
@@ -103,38 +98,22 @@
     "ContainingType": "DlmsWebApi.Controllers.BookController",
     "Method": "AddBook",
     "RelativePath": "api/book/add-book",
-=======
-    "ContainingType": "DlmsWebApi.Controllers.PublicationController",
-    "Method": "Add",
-    "RelativePath": "api/publication/add-publication",
->>>>>>> publication
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-<<<<<<< HEAD
         "Name": "book",
         "Type": "DlmsWebApi.Shared.BookData.BookDetails",
-=======
-        "Name": "publication",
-        "Type": "DlmsWebApi.Shared.PublicationData.PublicationDetails",
->>>>>>> publication
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
     "ContainingType": "DlmsWebApi.Controllers.BookController",
     "Method": "EditBook",
     "RelativePath": "api/book/get-book-details",
-=======
-    "ContainingType": "DlmsWebApi.Controllers.PublicationController",
-    "Method": "Edit",
-    "RelativePath": "api/publication/get-publication-details",
->>>>>>> publication
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -148,15 +127,9 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
     "ContainingType": "DlmsWebApi.Controllers.BookController",
     "Method": "GetList",
     "RelativePath": "api/book/get-book-list",
-=======
-    "ContainingType": "DlmsWebApi.Controllers.PublicationController",
-    "Method": "GetList",
-    "RelativePath": "api/publication/get-publication-list",
->>>>>>> publication
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -164,42 +137,99 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
     "ContainingType": "DlmsWebApi.Controllers.BookController",
     "Method": "EditBook",
     "RelativePath": "api/book/update-book-details",
-=======
-    "ContainingType": "DlmsWebApi.Controllers.PublicationController",
-    "Method": "Edit",
-    "RelativePath": "api/publication/update-publication-details",
->>>>>>> publication
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-<<<<<<< HEAD
         "Name": "book",
         "Type": "DlmsWebApi.Shared.BookData.BookDetails",
-=======
-        "Name": "publication",
-        "Type": "DlmsWebApi.Shared.PublicationData.PublicationDetails",
->>>>>>> publication
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
     "ContainingType": "DlmsWebApi.Controllers.BookController",
     "Method": "UpdateStatus",
     "RelativePath": "api/book/update-book-status",
-=======
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.PublicationController",
+    "Method": "Add",
+    "RelativePath": "api/publication/add-publication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "publication",
+        "Type": "DlmsWebApi.Shared.PublicationData.PublicationDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.PublicationController",
+    "Method": "Edit",
+    "RelativePath": "api/publication/get-publication-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.PublicationController",
+    "Method": "GetList",
+    "RelativePath": "api/publication/get-publication-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.PublicationController",
+    "Method": "Edit",
+    "RelativePath": "api/publication/update-publication-details",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "publication",
+        "Type": "DlmsWebApi.Shared.PublicationData.PublicationDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DlmsWebApi.Controllers.PublicationController",
     "Method": "UpdateStatus",
     "RelativePath": "api/publication/update-publication-status",
->>>>>>> publication
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,

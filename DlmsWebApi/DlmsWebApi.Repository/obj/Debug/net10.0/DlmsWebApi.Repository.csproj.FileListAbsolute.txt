@@ -54,27 +54,7 @@ C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debu
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.pdb
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.genruntimeconfig.cache
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\ref\DlmsWebApi.Repository.dll
-<<<<<<< HEAD
 >>>>>>> 4d57942 (bookadd)
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.deps.json
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.runtimeconfig.json
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.dll
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.pdb
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Shared.dll
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.csproj.AssemblyReference.cache
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.GeneratedMSBuildEditorConfig.editorconfig
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.AssemblyInfoInputs.cache
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.AssemblyInfo.cs
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.csproj.CoreCompileInputs.cache
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.sourcelink.json
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebA.1E371F99.Up2Date
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.dll
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\refint\DlmsWebApi.Repository.dll
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.pdb
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.genruntimeconfig.cache
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\ref\DlmsWebApi.Repository.dll
-=======
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.deps.json
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.runtimeconfig.json
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.dll
@@ -94,3 +74,21 @@ C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.genruntimeconfig.cache
 C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\ref\DlmsWebApi.Repository.dll
 >>>>>>> publication
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.deps.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.runtimeconfig.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Repository.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Shared.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.csproj.AssemblyReference.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.AssemblyInfoInputs.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.AssemblyInfo.cs
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.csproj.CoreCompileInputs.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.sourcelink.json
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebA.1E371F99.Up2Date
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\refint\DlmsWebApi.Repository.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.pdb
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\DlmsWebApi.Repository.genruntimeconfig.cache
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Repository\obj\Debug\net10.0\ref\DlmsWebApi.Repository.dll

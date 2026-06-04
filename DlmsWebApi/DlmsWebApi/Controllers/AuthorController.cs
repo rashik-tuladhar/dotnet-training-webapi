@@ -48,7 +48,6 @@ namespace DlmsWebApi.Controllers
             }
         }
 
-<<<<<<< HEAD
         [HttpGet]
         [Route("get-author-details")]
         public async Task<IActionResult> Edit([FromQuery] string id)
@@ -76,7 +75,7 @@ namespace DlmsWebApi.Controllers
             }
             
         }
-=======
+
         //[HttpGet]
         //[Route("get-author-details")]
         //public async Task<IActionResult> Edit([FromQuery] string id)
@@ -88,7 +87,7 @@ namespace DlmsWebApi.Controllers
         //}
 
 
->>>>>>> publication
+
 
         [HttpPut]
         [Route("update-author-details")]
