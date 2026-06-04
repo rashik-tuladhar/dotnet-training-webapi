@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {}
+    "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
         "projectName": "DlmsWebApi.Extensions",
-        "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
-        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\obj\\",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

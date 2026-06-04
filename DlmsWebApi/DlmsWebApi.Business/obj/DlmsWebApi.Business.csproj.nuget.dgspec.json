@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj": {}
+    "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
         "projectName": "DlmsWebApi.Business",
-        "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
-        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\obj\\",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -33,14 +34,14 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {
-                "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj"
               },
-              "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj": {
-                "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj"
               },
-              "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {
-                "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj"
               }
             }
           }
@@ -355,20 +356,20 @@
         }
       }
     },
-    "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
         "projectName": "DlmsWebApi.Extensions",
-        "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
-        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\obj\\",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -377,6 +378,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -696,20 +698,20 @@
         }
       }
     },
-    "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj",
         "projectName": "DlmsWebApi.Repository",
-        "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj",
-        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Repository\\obj\\",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -718,6 +720,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -725,8 +728,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {
-                "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj"
+              "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {
+                "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj"
               }
             }
           }
@@ -1067,20 +1070,20 @@
         }
       }
     },
-    "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {
+    "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
         "projectName": "DlmsWebApi.Shared",
-        "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
-        "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\obj\\",
+        "projectPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\OneDrive\\Desktop\\clone\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -1089,6 +1092,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

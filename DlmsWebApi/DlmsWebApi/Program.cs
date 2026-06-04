@@ -1,6 +1,8 @@
 using DlmsWebApi.Business.AuthorBusiness;
 using DlmsWebApi.Repository.AuthorRepository;
 using DlmsWebApi.Repository.Data;
+using DlmsWebApi.Business.PublicationBusiness;
+using DlmsWebApi.Repository.PublicationRepository;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -19,6 +21,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddScoped<IAuthorBusiness, AuthorBusiness>();
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+
+
+
+builder.Services.AddScoped<IPublicationBusiness, PublicationBusiness>();
+builder.Services.AddScoped<IPublicationRepository, PublicationRepository>(); 
 
 var app = builder.Build();
 

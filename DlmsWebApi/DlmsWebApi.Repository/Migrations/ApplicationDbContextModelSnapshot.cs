@@ -60,6 +60,55 @@ namespace DlmsWebApi.Repository.Migrations
 
                     b.ToTable("Author");
                 });
+
+            modelBuilder.Entity("DlmsWebApi.Repository.Models.Publication", b =>
+                {
+                    b.Property<int>("PublicationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ContactPersonName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ContactPhone")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ModifiedBy")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PublicationAddress")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PublicationEmail")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PublicationName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PublicationWebsite")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("PublicationId");
+
+                    b.ToTable("Publication");
+                });
 #pragma warning restore 612, 618
         }
     }

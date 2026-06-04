@@ -39,15 +39,17 @@ namespace LibrarySystem.Controllers
             }
         }
 
-        [HttpGet]
-        [Route("get-author-details")]
-        public async Task<IActionResult> Edit([FromQuery] string id)
-        {
-            var authorId = Convert.ToInt32(EncryptionHelper.Decrypt(id));
-            var authorDetails = await _authorBusiness.GetDetails(authorId);
-            authorDetails.AuthorIdString = EncryptionHelper.Encrypt(authorDetails.AuthorId.ToString());
-            return Ok(authorDetails);
-        }
+        //[HttpGet]
+        //[Route("get-author-details")]
+        //public async Task<IActionResult> Edit([FromQuery] string id)
+        //{
+        //    var authorId = Convert.ToInt32(EncryptionHelper.Decrypt(id));
+        //    var authorDetails = await _authorBusiness.GetDetails(authorId);
+        //    authorDetails.AuthorIdString = EncryptionHelper.Encrypt(authorDetails.AuthorId.ToString());
+        //    return Ok(authorDetails);
+        //}
+
+
 
         [HttpPut]
         [Route("update-author-details")]

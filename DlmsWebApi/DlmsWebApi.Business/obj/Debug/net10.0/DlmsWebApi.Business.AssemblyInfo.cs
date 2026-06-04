@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DlmsWebApi.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+394fcb67f0be748737bcf3f308fe9fa9ece6ae6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1c939e8cb869613f668210a20da716bccf7b8e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DlmsWebApi.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DlmsWebApi.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

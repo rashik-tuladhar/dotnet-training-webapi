@@ -13,6 +13,124 @@
     }
   ],
   "paths": {
+    "/api/publication/get-publication-list": {
+      "get": {
+        "tags": [
+          "Publication"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/publication/add-publication": {
+      "post": {
+        "tags": [
+          "Publication"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/publication/get-publication-details": {
+      "get": {
+        "tags": [
+          "Publication"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/publication/update-publication-details": {
+      "put": {
+        "tags": [
+          "Publication"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/publication/update-publication-status": {
+      "patch": {
+        "tags": [
+          "Publication"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -161,27 +279,6 @@
         }
       }
     },
-    "/api/author/get-author-details": {
-      "get": {
-        "tags": [
-          "Author"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/author/update-author-details": {
       "put": {
         "tags": [
@@ -294,6 +391,77 @@
           }
         }
       },
+      "PublicationDetails": {
+        "required": [
+          "publicationName",
+          "publicationAddress",
+          "contactPersonName",
+          "contactPhone",
+          "publicationEmail"
+        ],
+        "type": "object",
+        "properties": {
+          "publicationId": {
+            "pattern": "^-?(?:0|[1-9]\\d*)$",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "format": "int32"
+          },
+          "publicationIdString": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "publicationName": {
+            "type": "string"
+          },
+          "publicationAddress": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contactPersonName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contactPhone": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "publicationEmail": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "publicationWebsite": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "user": {
+            "type": [
+              "null",
+              "string"
+            ]
+          }
+        }
+      },
       "WeatherForecast": {
         "type": "object",
         "properties": {
@@ -328,6 +496,9 @@
     }
   },
   "tags": [
+    {
+      "name": "Publication"
+    },
     {
       "name": "WeatherForecast"
     },
