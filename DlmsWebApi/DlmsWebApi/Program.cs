@@ -3,10 +3,15 @@ using DlmsWebApi.Business.BookBusiness;
 using DlmsWebApi.Repository.AuthorRepository;
 using DlmsWebApi.Repository.BookRepository;
 using DlmsWebApi.Repository.Data;
+<<<<<<< HEAD
 //using LibrarySystem.Business.CategoryBusiness;
 //using LibrarySystem.Business.PublicationBusiness;
 //using LibrarySystem.Repository.CategoryRepository;
 //using LibrarySystem.Repository.PublicationRepository;
+=======
+using DlmsWebApi.Business.PublicationBusiness;
+using DlmsWebApi.Repository.PublicationRepository;
+>>>>>>> publication
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -37,12 +42,21 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddScoped<IAuthorBusiness, AuthorBusiness>();
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+<<<<<<< HEAD
 builder.Services.AddScoped<IBookBusiness, BookBusiness>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 //builder.Services.AddScoped<ICategoryBusiness, CategoryBusiness>();
 //builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 //builder.Services.AddScoped<IPublicationBusiness, PublicationBusiness>();
 //builder.Services.AddScoped<IPublicationRepository, PublicationRepository>();
+=======
+
+
+
+builder.Services.AddScoped<IPublicationBusiness, PublicationBusiness>();
+builder.Services.AddScoped<IPublicationRepository, PublicationRepository>(); 
+
+>>>>>>> publication
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

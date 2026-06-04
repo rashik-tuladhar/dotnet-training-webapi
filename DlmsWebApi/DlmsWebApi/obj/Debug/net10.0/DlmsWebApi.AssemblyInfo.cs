@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DlmsWebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86cd388373c79c2665b0bc736f71e6b882345a31")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4ee9c0cc41d661a0580270d0d69ae87cffe035e")]
+>>>>>>> publication
 [assembly: System.Reflection.AssemblyProductAttribute("DlmsWebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DlmsWebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

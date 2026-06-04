@@ -13,6 +13,231 @@
     }
   ],
   "paths": {
+<<<<<<< HEAD
+=======
+    "/api/publication/get-publication-list": {
+      "get": {
+        "tags": [
+          "Publication"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/publication/add-publication": {
+      "post": {
+        "tags": [
+          "Publication"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/publication/get-publication-details": {
+      "get": {
+        "tags": [
+          "Publication"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/publication/update-publication-details": {
+      "put": {
+        "tags": [
+          "Publication"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PublicationDetails"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/publication/update-publication-status": {
+      "patch": {
+        "tags": [
+          "Publication"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast/get-string": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast/add-string": {
+      "post": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "parameters": [
+          {
+            "name": "value",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast/add-string-from-body": {
+      "post": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+>>>>>>> publication
     "/api/author/get-author-list": {
       "get": {
         "tags": [
@@ -50,27 +275,6 @@
           },
           "required": true
         },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/author/get-author-details": {
-      "get": {
-        "tags": [
-          "Author"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -443,6 +647,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "BookDetails": {
         "required": [
           "name",
@@ -457,6 +662,19 @@
         "type": "object",
         "properties": {
           "bookId": {
+=======
+      "PublicationDetails": {
+        "required": [
+          "publicationName",
+          "publicationAddress",
+          "contactPersonName",
+          "contactPhone",
+          "publicationEmail"
+        ],
+        "type": "object",
+        "properties": {
+          "publicationId": {
+>>>>>>> publication
             "pattern": "^-?(?:0|[1-9]\\d*)$",
             "type": [
               "integer",
@@ -464,6 +682,7 @@
             ],
             "format": "int32"
           },
+<<<<<<< HEAD
           "bookIdString": {
             "type": "string"
           },
@@ -518,6 +737,42 @@
             "type": "string"
           },
           "user": {
+=======
+          "publicationIdString": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "publicationName": {
+            "type": "string"
+          },
+          "publicationAddress": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contactPersonName": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "contactPhone": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "publicationEmail": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "publicationWebsite": {
+>>>>>>> publication
             "type": [
               "null",
               "string"
@@ -529,11 +784,16 @@
               "string"
             ]
           },
+<<<<<<< HEAD
           "imageUrl": {
+=======
+          "user": {
+>>>>>>> publication
             "type": [
               "null",
               "string"
             ]
+<<<<<<< HEAD
           },
           "imageFile": {
             "oneOf": [
@@ -554,6 +814,11 @@
         ],
         "format": "binary"
       },
+=======
+          }
+        }
+      },
+>>>>>>> publication
       "WeatherForecast": {
         "type": "object",
         "properties": {
@@ -589,7 +854,14 @@
   },
   "tags": [
     {
+<<<<<<< HEAD
       "name": "Author"
+=======
+      "name": "Publication"
+    },
+    {
+      "name": "WeatherForecast"
+>>>>>>> publication
     },
     {
       "name": "Book"

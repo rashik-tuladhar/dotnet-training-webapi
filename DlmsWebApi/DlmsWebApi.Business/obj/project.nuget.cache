@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "d8HqVSYDFek=",
   "success": true,
   "projectFilePath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
@@ -10,6 +11,14 @@
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\10.0.7\\microsoft.aspnetcore.cryptography.internal.10.0.7.nupkg.sha512",
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\10.0.7\\microsoft.aspnetcore.cryptography.keyderivation.10.0.7.nupkg.sha512",
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+=======
+  "dgSpecHash": "DTJYYIvQCxo=",
+  "success": true,
+  "projectFilePath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\reply\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\10.0.7\\microsoft.aspnetcore.cryptography.internal.10.0.7.nupkg.sha512",
+    "C:\\Users\\reply\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\10.0.7\\microsoft.aspnetcore.cryptography.keyderivation.10.0.7.nupkg.sha512",
+>>>>>>> publication
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\10.0.7\\microsoft.aspnetcore.identity.entityframeworkcore.10.0.7.nupkg.sha512",
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.7\\microsoft.data.sqlite.core.10.0.7.nupkg.sha512",
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.7\\microsoft.entityframeworkcore.10.0.7.nupkg.sha512",
@@ -35,7 +44,10 @@
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.extensions.options\\10.0.7\\microsoft.extensions.options.10.0.7.nupkg.sha512",
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\10.0.7\\microsoft.extensions.options.configurationextensions.10.0.7.nupkg.sha512",
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.7\\microsoft.extensions.primitives.10.0.7.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\reply\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+=======
+>>>>>>> publication
     "C:\\Users\\reply\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.11\\sqlitepclraw.bundle_e_sqlite3.2.1.11.nupkg.sha512",
     "C:\\Users\\reply\\.nuget\\packages\\sqlitepclraw.core\\2.1.11\\sqlitepclraw.core.2.1.11.nupkg.sha512",
     "C:\\Users\\reply\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",

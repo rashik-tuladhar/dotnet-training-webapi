@@ -36,6 +36,7 @@ C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Extensions\obj\Debu
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\refint\DlmsWebApi.Extensions.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.pdb
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\ref\DlmsWebApi.Extensions.dll
+<<<<<<< HEAD
 >>>>>>> 4d57942 (bookadd)
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\bin\Debug\net10.0\DlmsWebApi.Extensions.deps.json
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\bin\Debug\net10.0\DlmsWebApi.Extensions.dll
@@ -49,3 +50,17 @@ E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensio
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\refint\DlmsWebApi.Extensions.dll
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.pdb
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\ref\DlmsWebApi.Extensions.dll
+=======
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\bin\Debug\net10.0\DlmsWebApi.Extensions.deps.json
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\bin\Debug\net10.0\DlmsWebApi.Extensions.dll
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\bin\Debug\net10.0\DlmsWebApi.Extensions.pdb
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.AssemblyInfoInputs.cache
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.AssemblyInfo.cs
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.sourcelink.json
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.dll
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\refint\DlmsWebApi.Extensions.dll
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.pdb
+C:\Users\hp\OneDrive\Desktop\clone\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\ref\DlmsWebApi.Extensions.dll
+>>>>>>> publication

@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "Tvc1xKtgyek=",
   "success": true,
   "projectFilePath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
@@ -61,4 +62,11 @@
       ]
     }
   ]
+=======
+  "dgSpecHash": "GhHIj04wkwg=",
+  "success": true,
+  "projectFilePath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> publication
 }

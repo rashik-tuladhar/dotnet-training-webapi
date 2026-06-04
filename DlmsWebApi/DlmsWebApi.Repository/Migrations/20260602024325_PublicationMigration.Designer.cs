@@ -3,6 +3,7 @@ using System;
 using DlmsWebApi.Repository.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DlmsWebApi.Repository.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260602024325_PublicationMigration")]
+    partial class PublicationMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.7");
@@ -61,25 +64,6 @@ namespace DlmsWebApi.Repository.Migrations
                     b.ToTable("Author");
                 });
 
-<<<<<<< HEAD
-            modelBuilder.Entity("DlmsWebApi.Repository.Models.Book", b =>
-                {
-                    b.Property<int>("BookId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Author")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("TEXT");
-
-                    b.Property<int>("AvailableCopies")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Category")
-                        .IsRequired()
-                        .HasMaxLength(500)
-=======
             modelBuilder.Entity("DlmsWebApi.Repository.Models.Publication", b =>
                 {
                     b.Property<int>("PublicationId")
@@ -92,7 +76,6 @@ namespace DlmsWebApi.Repository.Migrations
 
                     b.Property<string>("ContactPhone")
                         .IsRequired()
->>>>>>> publication
                         .HasColumnType("TEXT");
 
                     b.Property<string>("CreatedBy")
@@ -101,39 +84,12 @@ namespace DlmsWebApi.Repository.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("TEXT");
 
-<<<<<<< HEAD
-                    b.Property<string>("Edition")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("ImageUrl")
-                        .HasMaxLength(1000)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Isbn")
-                        .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("TEXT");
-
-=======
->>>>>>> publication
                     b.Property<string>("ModifiedBy")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime?>("ModifiedDate")
                         .HasColumnType("TEXT");
 
-<<<<<<< HEAD
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("Publication")
-                        .IsRequired()
-                        .HasMaxLength(500)
-=======
                     b.Property<string>("PublicationAddress")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -147,24 +103,14 @@ namespace DlmsWebApi.Repository.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("PublicationWebsite")
->>>>>>> publication
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Status")
                         .HasColumnType("TEXT");
 
-<<<<<<< HEAD
-                    b.Property<int>("TotalCopies")
-                        .HasColumnType("INTEGER");
-
-                    b.HasKey("BookId");
-
-                    b.ToTable("Books");
-=======
                     b.HasKey("PublicationId");
 
                     b.ToTable("Publication");
->>>>>>> publication
                 });
 #pragma warning restore 612, 618
         }
