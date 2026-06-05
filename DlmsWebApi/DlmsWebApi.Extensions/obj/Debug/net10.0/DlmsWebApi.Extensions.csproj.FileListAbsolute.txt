@@ -10,3 +10,15 @@ C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Extensions\obj\Debu
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\refint\DlmsWebApi.Extensions.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.pdb
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\ref\DlmsWebApi.Extensions.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\bin\Debug\net10.0\DlmsWebApi.Extensions.deps.json
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\bin\Debug\net10.0\DlmsWebApi.Extensions.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\bin\Debug\net10.0\DlmsWebApi.Extensions.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.AssemblyInfoInputs.cache
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.AssemblyInfo.cs
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.csproj.CoreCompileInputs.cache
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.sourcelink.json
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\refint\DlmsWebApi.Extensions.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\DlmsWebApi.Extensions.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Extensions\obj\Debug\net10.0\ref\DlmsWebApi.Extensions.dll

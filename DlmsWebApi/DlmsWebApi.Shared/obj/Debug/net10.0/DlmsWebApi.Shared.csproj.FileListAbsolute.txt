@@ -10,3 +10,15 @@ C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\ne
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\refint\DlmsWebApi.Shared.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.deps.json
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfoInputs.cache
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.AssemblyInfo.cs
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.csproj.CoreCompileInputs.cache
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.sourcelink.json
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\refint\DlmsWebApi.Shared.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\DlmsWebApi.Shared.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Shared\obj\Debug\net10.0\ref\DlmsWebApi.Shared.dll

@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "Humanizer.Core/2.14.1": {
@@ -2689,23 +2689,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\swift\\.nuget\\packages\\": {},
+    "C:\\Users\\sushr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\DlmsWebApi.csproj",
+      "projectUniqueName": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\DlmsWebApi.csproj",
       "projectName": "DlmsWebApi",
-      "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\DlmsWebApi.csproj",
-      "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\obj\\",
+      "projectPath": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\DlmsWebApi.csproj",
+      "packagesPath": "C:\\Users\\sushr\\.nuget\\packages\\",
+      "outputPath": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sushr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2721,8 +2721,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj": {
-              "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj"
+            "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj": {
+              "projectPath": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj"
             }
           }
         }
@@ -2737,7 +2737,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -2796,7 +2796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

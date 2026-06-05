@@ -18,3 +18,23 @@ C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Business\obj\Debug\
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\ref\DlmsWebApi.Business.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Extensions.dll
 C:\Users\swift\OneDrive\Desktop\WebAPI\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Extensions.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Business.deps.json
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Business.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Business.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Extensions.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Repository.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Shared.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Extensions.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Repository.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\bin\Debug\net10.0\DlmsWebApi.Shared.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebApi.Business.csproj.AssemblyReference.cache
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebApi.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebApi.Business.AssemblyInfoInputs.cache
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebApi.Business.AssemblyInfo.cs
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebApi.Business.csproj.CoreCompileInputs.cache
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebApi.Business.sourcelink.json
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebA.D3B250C3.Up2Date
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebApi.Business.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\refint\DlmsWebApi.Business.dll
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\DlmsWebApi.Business.pdb
+D:\DotNet learnings\New folder\dotnet-training-webapi\DlmsWebApi\DlmsWebApi.Business\obj\Debug\net10.0\ref\DlmsWebApi.Business.dll

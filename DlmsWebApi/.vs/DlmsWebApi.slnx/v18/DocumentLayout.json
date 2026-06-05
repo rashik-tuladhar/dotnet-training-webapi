@@ -1,10 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\",
+  "WorkspaceRootPath": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|c:\\users\\swift\\onedrive\\desktop\\webapi\\dlmswebapi\\dlmswebapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.repository\\authorrepository\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|solutionrelative:dlmswebapi.repository\\authorrepository\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.repository\\memberrepository\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|solutionrelative:dlmswebapi.repository\\memberrepository\\memberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B598444-FFD0-4975-962E-28554419BE95}|DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.shared\\memberdata\\memberdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B598444-FFD0-4975-962E-28554419BE95}|DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj|solutionrelative:dlmswebapi.shared\\memberdata\\memberdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.business\\memberbusiness\\memberbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|solutionrelative:dlmswebapi.business\\memberbusiness\\memberbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.business\\memberbusiness\\imemberbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|solutionrelative:dlmswebapi.business\\memberbusiness\\imemberbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.repository\\memberrepository\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|solutionrelative:dlmswebapi.repository\\memberrepository\\imemberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.repository\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|solutionrelative:dlmswebapi.repository\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\dlmswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\dlmswebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.repository\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|solutionrelative:dlmswebapi.repository\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.business\\authorbusiness\\authorbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|solutionrelative:dlmswebapi.business\\authorbusiness\\authorbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.repository\\authorrepository\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|solutionrelative:dlmswebapi.repository\\authorrepository\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.business\\authorbusiness\\iauthorbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|solutionrelative:dlmswebapi.business\\authorbusiness\\iauthorbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|d:\\dotnet learnings\\new folder\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.repository\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|solutionrelative:dlmswebapi.repository\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +78,213 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "DlmsWebApi\\Controllers\\AuthorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Program.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Program.cs",
+              "RelativeToolTip": "DlmsWebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T02:58:10.859Z",
+              "WhenOpened": "2026-06-02T02:41:57.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAQwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:31:01.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\MemberController.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:30:34.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:23:15.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Repository\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DlmsWebApi.Repository\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:19:47.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthorBusiness.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\AuthorBusiness\\AuthorBusiness.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Business\\AuthorBusiness\\AuthorBusiness.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\AuthorBusiness\\AuthorBusiness.cs",
+              "RelativeToolTip": "DlmsWebApi.Business\\AuthorBusiness\\AuthorBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:15:51.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IAuthorRepository.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\AuthorRepository\\IAuthorRepository.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Repository\\AuthorRepository\\IAuthorRepository.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\AuthorRepository\\IAuthorRepository.cs",
+              "RelativeToolTip": "DlmsWebApi.Repository\\AuthorRepository\\IAuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:18:43.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DlmsWebApi.csproj",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\DlmsWebApi.csproj",
+              "RelativeDocumentMoniker": "DlmsWebApi\\DlmsWebApi.csproj",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\DlmsWebApi.csproj",
+              "RelativeToolTip": "DlmsWebApi\\DlmsWebApi.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-02T02:16:57.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAuthorBusiness.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\AuthorBusiness\\IAuthorBusiness.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Business\\AuthorBusiness\\IAuthorBusiness.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\AuthorBusiness\\IAuthorBusiness.cs",
+              "RelativeToolTip": "DlmsWebApi.Business\\AuthorBusiness\\IAuthorBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:16:18.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMemberBusiness.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\MemberBusiness\\IMemberBusiness.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Business\\MemberBusiness\\IMemberBusiness.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\MemberBusiness\\IMemberBusiness.cs",
+              "RelativeToolTip": "DlmsWebApi.Business\\MemberBusiness\\IMemberBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:15:37.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MemberBusiness.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\MemberBusiness\\MemberBusiness.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Business\\MemberBusiness\\MemberBusiness.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\MemberBusiness\\MemberBusiness.cs",
+              "RelativeToolTip": "DlmsWebApi.Business\\MemberBusiness\\MemberBusiness.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAewC4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:15:33.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Repository\\Models\\Member.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\Models\\Member.cs",
+              "RelativeToolTip": "DlmsWebApi.Repository\\Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:14:14.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MemberDetails.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\MemberData\\MemberDetails.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Shared\\MemberData\\MemberDetails.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\MemberData\\MemberDetails.cs",
+              "RelativeToolTip": "DlmsWebApi.Shared\\MemberData\\MemberDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:13:08.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Author.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Repository\\Models\\Author.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\Models\\Author.cs",
+              "RelativeToolTip": "DlmsWebApi.Repository\\Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:12:23.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MemberRepository.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\MemberRepository\\MemberRepository.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Repository\\MemberRepository\\MemberRepository.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\MemberRepository\\MemberRepository.cs",
+              "RelativeToolTip": "DlmsWebApi.Repository\\MemberRepository\\MemberRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwDsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:10:01.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IMemberRepository.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\MemberRepository\\IMemberRepository.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Repository\\MemberRepository\\IMemberRepository.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\MemberRepository\\IMemberRepository.cs",
+              "RelativeToolTip": "DlmsWebApi.Repository\\MemberRepository\\IMemberRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:09:58.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorRepository.cs",
+              "DocumentMoniker": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\AuthorRepository\\AuthorRepository.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Repository\\AuthorRepository\\AuthorRepository.cs",
+              "ToolTip": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\AuthorRepository\\AuthorRepository.cs",
+              "RelativeToolTip": "DlmsWebApi.Repository\\AuthorRepository\\AuthorRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T02:09:43.726Z",
               "EditorCaption": ""
             }
           ]

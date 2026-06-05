@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 3,
   "targets": {
     "net10.0": {
       "Microsoft.AspNetCore.Cryptography.Internal/10.0.7": {
@@ -1495,23 +1495,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\swift\\.nuget\\packages\\": {},
+    "C:\\Users\\sushr\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
+      "projectUniqueName": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
       "projectName": "DlmsWebApi.Business",
-      "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
-      "packagesPath": "C:\\Users\\swift\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Business\\obj\\",
+      "projectPath": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\DlmsWebApi.Business.csproj",
+      "packagesPath": "C:\\Users\\sushr\\.nuget\\packages\\",
+      "outputPath": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\swift\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sushr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1527,14 +1527,14 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {
-              "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj"
+            "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj": {
+              "projectPath": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Extensions\\DlmsWebApi.Extensions.csproj"
             },
-            "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj": {
-              "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj"
+            "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj": {
+              "projectPath": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj"
             },
-            "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {
-              "projectPath": "C:\\Users\\swift\\OneDrive\\Desktop\\WebAPI\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj"
+            "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj": {
+              "projectPath": "D:\\DotNet learnings\\New folder\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Shared\\DlmsWebApi.Shared.csproj"
             }
           }
         }
@@ -1549,7 +1549,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.300"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -1571,7 +1571,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
