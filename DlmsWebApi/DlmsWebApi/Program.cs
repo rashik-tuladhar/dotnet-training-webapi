@@ -1,6 +1,10 @@
+using DlmsWebApi;
 using DlmsWebApi.Business.AuthorBusiness;
+using DlmsWebApi.Extensions.BasicAuthentication;
 using DlmsWebApi.Repository.AuthorRepository;
 using DlmsWebApi.Repository.Data;
+using DlmsWebApi.Repository.Models;
+using DlmsWebApi.Repository.RepositoryPattern;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -29,10 +33,19 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
  options.UseSqlite(connectionString));
 
+builder.Services.AddScoped<IBasicAuthService, BasicAuthService>();
 builder.Services.AddScoped<IAuthorBusiness, AuthorBusiness>();
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
 
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
+
+
 var app = builder.Build();
+
+app.UseExceptionHandler();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

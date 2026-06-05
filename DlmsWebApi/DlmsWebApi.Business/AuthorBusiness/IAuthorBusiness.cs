@@ -1,4 +1,5 @@
-﻿using DlmsWebApi.Shared.AuthorData;
+﻿using DlmsWebApi.Shared;
+using DlmsWebApi.Shared.AuthorData;
 
 namespace DlmsWebApi.Business.AuthorBusiness
 {
@@ -8,6 +9,10 @@ namespace DlmsWebApi.Business.AuthorBusiness
         Task<bool> Edit(AuthorDetails publication);
         Task<AuthorDetails> GetDetails(int id);
         Task<List<AuthorDetails>> GetList();
+        Task<List<AuthorDetails>> GetListRepositoryPattern();
         Task<bool> UpdateStatus(int publicationId, string user);
+        // Return a paged set of AuthorDetails. Use PagedResult<AuthorDetails> so Items is a collection
+        // of AuthorDetails (not a collection-of-collections). This simplifies JSON output for clients.
+        Task<ApiResponse<PagedResult<AuthorDetails>>> GetListPaginated(PaginationParams pagination, CancellationToken ct);
     }
 }

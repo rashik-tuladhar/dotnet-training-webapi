@@ -1,11 +1,15 @@
+using System.Text.Json;
 using DlmsWebApi.Business.AuthorBusiness;
 using DlmsWebApi.Extensions.StringHelper;
+using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibrarySystem.Controllers
 {
+    //[ServiceFilter(typeof(BasicAuthFilter))]
+    [SecurityAuthentication("AuthorController")]
     [ApiController]
     [Route("api/author")]
     public class AuthorController : ControllerBase
@@ -31,6 +35,39 @@ namespace LibrarySystem.Controllers
             return Ok(ApiResponse<List<AuthorDetails>>.SuccessMessage(authorList,"this is success message"));
             
             
+        }
+        
+        [HttpGet]
+        [Route("get-author-list-repository-pattern")]
+        public async Task<IActionResult> GetListRepositoryPattern()
+        {
+            var authorList = await _authorBusiness.GetListRepositoryPattern();
+            return Ok(ApiResponse<List<AuthorDetails>>.SuccessMessage(authorList,"this is success message"));
+        }
+        
+        /// <summary>
+        /// Pagination Response with generic response
+        /// </summary>
+        /// <param name="pagination"></param>
+        /// <param name="ct"></param>
+        /// <returns></returns>
+        [HttpGet]
+        [Route("get-author-list-paginated")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationParams pagination,
+            CancellationToken ct)
+        {
+            var result = await _authorBusiness.GetListPaginated(pagination, ct);
+
+            // Add pagination metadata to response headers
+            Response.Headers.Append("X-Pagination", JsonSerializer.Serialize(new
+            {
+                result.Data.TotalCount,
+                result.Data.TotalPages,
+                result.Data.HasPreviousPage,
+                result.Data.HasNextPage
+            }));
+
+            return Ok(result);
         }
 
         [HttpPost]
