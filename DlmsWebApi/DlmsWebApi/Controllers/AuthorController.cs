@@ -5,6 +5,7 @@ using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace LibrarySystem.Controllers
 {
@@ -70,6 +71,7 @@ namespace LibrarySystem.Controllers
             return Ok(result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [Route("add-author")]
         public async Task<IActionResult> Add([FromBody] AuthorDetails author)
@@ -113,6 +115,7 @@ namespace LibrarySystem.Controllers
             
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut]
         [Route("update-author-details")]
         public async Task<IActionResult> Edit([FromBody] AuthorDetails author)
@@ -130,6 +133,7 @@ namespace LibrarySystem.Controllers
         }
 
 
+        [Authorize(Roles = "Admin")]
         [HttpPatch]
         [Route("update-author-status")]
         public async Task<IActionResult> UpdateStatus([FromQuery] string id)
