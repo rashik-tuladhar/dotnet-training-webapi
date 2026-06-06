@@ -1,5 +1,6 @@
 using DlmsWebApi.Repository.Data;
 using Microsoft.EntityFrameworkCore;
+using SQLitePCL;
 
 namespace DlmsWebApi.Repository.RepositoryPattern;
 
@@ -13,7 +14,7 @@ public class Repository<T> : IRepository<T> where T : class
         _context = context;
         _set = context.Set<T>();
     }
-
+    
     public async Task<T?> GetByIdAsync(int id) => await _set.FindAsync(id);
     public async Task<IEnumerable<T>> GetAllAsync() => await _set.AsNoTracking().ToListAsync();
     public async Task AddAsync(T entity) => await _set.AddAsync(entity);

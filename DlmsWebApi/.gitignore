@@ -1,2 +1,35 @@
-.DS_Store
+## Ignore Visual Studio / MSBuild build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
+## Ignore Rider IDE settings
+.idea/
+*.sln.DotSettings.user
+
+## Ignore Visual Studio settings and user files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+## Ignore databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+## Ignore OS-generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+## User-specific files
+*.rsuser
+*.suo
+*.userprefs
+
+## Ignore Markdown documentation files
+*.md
