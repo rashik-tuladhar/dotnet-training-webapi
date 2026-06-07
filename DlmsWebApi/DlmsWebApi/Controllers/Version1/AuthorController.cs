@@ -1,17 +1,25 @@
 using System.Text.Json;
+using Asp.Versioning;
 using DlmsWebApi.Business.AuthorBusiness;
 using DlmsWebApi.Extensions.StringHelper;
 using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
 using Microsoft.AspNetCore.Mvc;
+using Scalar.AspNetCore.Attributes;
 
+<<<<<<< HEAD:DlmsWebApi/DlmsWebApi/Controllers/AuthorController.cs
 namespace DlmsWebApi.Controllers
+=======
+namespace DlmsWebApi.Controllers.Version1
+>>>>>>> api-versioning:DlmsWebApi/DlmsWebApi/Controllers/Version1/AuthorController.cs
 {
     //[ServiceFilter(typeof(BasicAuthFilter))]
+    [Deprecated("This API version is deprecated. Please use v2.0 for new features and improvements.")]
     [SecurityAuthentication("AuthorController")]
+    [ApiVersion("1.0")]
     [ApiController]
-    [Route("api/author")]
+    [Route("api/v{version:apiVersion}/author")]
     public class AuthorController : ControllerBase
     {
         private readonly IAuthorBusiness _authorBusiness;
