@@ -4,13 +4,14 @@ using DlmsWebApi.Extensions.StringHelper;
 using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-namespace LibrarySystem.Controllers
+namespace DlmsWebApi.Controllers
 {
     //[ServiceFilter(typeof(BasicAuthFilter))]
-    [SecurityAuthentication("AuthorController")]
+    //[SecurityAuthentication("AuthorController")]
+    [Authorize(Roles = "Admin")]
     [ApiController]
     [Route("api/author")]
     public class AuthorController : ControllerBase
