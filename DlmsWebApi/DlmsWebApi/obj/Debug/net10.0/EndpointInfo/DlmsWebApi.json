@@ -181,6 +181,18 @@
         }
       }
     },
+    "/api/book/get-author-list-repository-pattern": {
+      "get": {
+        "tags": [
+          "Book"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/book/get-book-list": {
       "get": {
         "tags": [

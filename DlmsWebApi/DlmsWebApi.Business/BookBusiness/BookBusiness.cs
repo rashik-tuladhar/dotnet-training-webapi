@@ -150,5 +150,19 @@ namespace DlmsWebApi.Business.BookBusiness
 
             return ApiResponse<PagedResult<BookDetails>>.SuccessMessage(pagedResult);
         }
+        public async Task<List<BookDetails>> GetListRepositoryPattern()
+        {
+            var bookList = await _repository.GetAllAsync();
+            return bookList.Select(book => new BookDetails
+            {
+                BookId = book.BookId,
+
+                Name = book.Name,
+                Author = book.Author,
+                Publication = book.Publication,
+                Status = string.IsNullOrEmpty(book.Status) ? "A" : book.Status,
+                ImageUrl = book.ImageUrl
+            }).ToList();
+        }
     }
 }

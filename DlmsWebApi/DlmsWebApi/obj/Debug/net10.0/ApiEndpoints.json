@@ -164,6 +164,16 @@
   },
   {
     "ContainingType": "DlmsWebApi.Controllers.BookController",
+    "Method": "GetListRepositoryPattern",
+    "RelativePath": "api/book/get-author-list-repository-pattern",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.BookController",
     "Method": "EditBook",
     "RelativePath": "api/book/get-book-details",
     "HttpMethod": "GET",

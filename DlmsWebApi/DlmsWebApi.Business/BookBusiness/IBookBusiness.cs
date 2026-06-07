@@ -14,6 +14,6 @@ namespace DlmsWebApi.Business.BookBusiness
         Task<BookDetails> GetDetails(int BookId);
         Task<bool> UpdateStatus(int bookId, string user);
         Task<ApiResponse<PagedResult<BookDetails>>> GetListPaginated(PaginationParams pagination, CancellationToken ct);
-
+        Task<List<BookDetails>?> GetListRepositoryPattern();
     }
 }

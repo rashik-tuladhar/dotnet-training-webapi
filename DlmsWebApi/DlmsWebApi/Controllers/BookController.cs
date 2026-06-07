@@ -3,6 +3,7 @@ using DlmsWebApi.Business.BookBusiness;
 using DlmsWebApi.Helpers;
 using DlmsWebApi.Repository.Models;
 using DlmsWebApi.Shared;
+using DlmsWebApi.Shared.AuthorData;
 using DlmsWebApi.Shared.BookData;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
@@ -29,6 +30,14 @@ namespace DlmsWebApi.Controllers
             //_categoryBusiness = categoryBusiness;
             //_publicationBusiness = publicationBusiness;
             _webHostEnvironment = webHostEnvironment;
+        }
+
+        [HttpGet]
+        [Route("get-author-list-repository-pattern")]
+        public async Task<IActionResult> GetListRepositoryPattern()
+        {
+            var bookList = await _bookBusiness.GetListRepositoryPattern();
+            return Ok(ApiResponse<List<BookDetails>>.SuccessMessage(bookList, "this is success message"));
         }
 
         [HttpGet]
@@ -224,8 +233,8 @@ namespace DlmsWebApi.Controllers
 
         private async Task PopulateDropdowns(BookDetails book)
         {
-            //var authorList = await _authorBusiness.GetList();
-            //book.AuthorList = authorList.Select(a => new SelectListItem
+            //var bookList = await _authorBusiness.GetList();
+            //book.AuthorList = bookList.Select(a => new SelectListItem
             //{
             //    Value = a.AuthorId.ToString(),
             //    Text = a.FirstName + " " + a.LastName,
