@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 bin/
 obj/
 *.user
@@ -16,10 +17,25 @@ obj/
 # User-specific files
 *.rsuser
 *.suo
+=======
+## Ignore Visual Studio / MSBuild build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## Ignore Rider IDE settings
+.idea/
+*.sln.DotSettings.user
+
+## Ignore Visual Studio settings and user files
+.vs/
+>>>>>>> main
 *.user
 *.userosscache
 *.sln.docstates
 
+<<<<<<< HEAD
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -488,3 +504,24 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 >>>>>>> publication
+=======
+## Ignore databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+
+## Ignore OS-generated files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+
+## User-specific files
+*.rsuser
+*.suo
+*.userprefs
+
+## Ignore Markdown documentation files
+*.md
+>>>>>>> main

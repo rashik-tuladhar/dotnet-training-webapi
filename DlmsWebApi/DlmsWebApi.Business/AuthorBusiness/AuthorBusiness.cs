@@ -1,6 +1,8 @@
 ﻿using DlmsWebApi.Extensions.StringHelper;
 using DlmsWebApi.Repository.AuthorRepository;
 using DlmsWebApi.Repository.Models;
+using DlmsWebApi.Repository.RepositoryPattern;
+using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
 
 namespace DlmsWebApi.Business.AuthorBusiness
@@ -9,9 +11,12 @@ namespace DlmsWebApi.Business.AuthorBusiness
     {
         private readonly IAuthorRepository _authorRepository;
 
-        public AuthorBusiness(IAuthorRepository authorRepository)
+        private readonly IRepository<Author> _repository;
+
+        public AuthorBusiness(IAuthorRepository authorRepository, IRepository<Author> repository)
         {
             _authorRepository = authorRepository;
+            _repository = repository;
         }
 
         public async Task<bool> Add(AuthorDetails author)
@@ -72,10 +77,75 @@ namespace DlmsWebApi.Business.AuthorBusiness
             return authorList;
         }
 
+        
+
         public async Task<bool> UpdateStatus(int authorId, string user)
         {
             var result = await _authorRepository.UpdateStatus(authorId, user);
             return result;
+        }
+
+        public async Task<ApiResponse<PagedResult<AuthorDetails>>> GetListPaginated(PaginationParams pagination, CancellationToken ct)
+        {
+            // 1) Fetch all authors from repository. Current repository exposes a List<Author>,
+            //    so we page in-memory. If the dataset grows, consider adding a repository
+            //    method that returns IQueryable or accepts pagination params to perform
+            //    database-side paging for performance and reduced memory usage.
+            var authors = await _authorRepository.GetList();
+
+            // Honor cancellation request early.
+            ct.ThrowIfCancellationRequested();
+
+            // 2) Compute counts and apply ordering + paging using LINQ on the in-memory list.
+            var totalCount = authors?.Count ?? 0;
+
+            var pagedAuthors = authors
+                .OrderBy(a => a.AuthorId) // always order before paging to ensure deterministic results
+                .Skip((pagination.Page - 1) * pagination.PageSize)
+                .Take(pagination.PageSize)
+                .ToList();
+
+            // 3) Map repository Author entities to AuthorDetails DTOs expected by clients.
+            var authorDetailsList = pagedAuthors.Select(author => new AuthorDetails
+            {
+                AuthorId = author.AuthorId,
+                AuthorIdString = EncryptionHelper.Encrypt(author.AuthorId.ToString()),
+                FirstName = author.FirstName,
+                MiddleName = author.MiddleName,
+                LastName = author.LastName,
+                Bio = author.Bio,
+                DateOfBirth = author.DateOfBirth,
+                Status = string.IsNullOrEmpty(author.Status) ? "A" : author.Status,
+            }).ToList();
+
+            // 4) Build paged result and wrap in ApiResponse. Use PagedResult<AuthorDetails> so Items
+            //    is a simple collection of AuthorDetails and serializes naturally for clients.
+            var pagedResult = new PagedResult<AuthorDetails>
+            {
+                Items = authorDetailsList,
+                TotalCount = totalCount,
+                Page = pagination.Page,
+                PageSize = pagination.PageSize
+            };
+
+            return ApiResponse<PagedResult<AuthorDetails>>.SuccessMessage(pagedResult);
+        }
+
+
+
+        public async Task<List<AuthorDetails>> GetListRepositoryPattern()
+        {
+            var authorList = await _repository.GetAllAsync();
+            return authorList.Select(author => new AuthorDetails
+            {
+                AuthorId = author.AuthorId,
+                FirstName = author.FirstName,
+                MiddleName = author.MiddleName,
+                LastName = author.LastName,
+                Bio = author.Bio,
+                DateOfBirth = author.DateOfBirth,
+                Status = string.IsNullOrEmpty(author.Status) ? "A" : author.Status,
+            }).ToList();
         }
     }
 }

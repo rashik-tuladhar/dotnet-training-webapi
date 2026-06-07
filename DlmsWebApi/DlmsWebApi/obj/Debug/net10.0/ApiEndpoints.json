@@ -43,6 +43,37 @@
   },
   {
     "ContainingType": "DlmsWebApi.Controllers.AuthorController",
+    "Method": "GetAll",
+    "RelativePath": "api/author/get-author-list-paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
+    "Method": "GetListRepositoryPattern",
+    "RelativePath": "api/author/get-author-list-repository-pattern",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
     "Method": "Edit",
     "RelativePath": "api/author/update-author-details",
     "HttpMethod": "PUT",
@@ -238,6 +269,107 @@
         "Name": "id",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.TestRouteController",
+    "Method": "GetFromRoutingAsync",
+    "RelativePath": "TestRoute/from-dynamic-routing/{value}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.TestRouteController",
+    "Method": "GetAsync",
+    "RelativePath": "TestRoute/from-query-string",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "value",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.TestRouteController",
+    "Method": "GetFromBodyAsync",
+    "RelativePath": "TestRoute/get-from-body",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookHello",
+        "Type": "DlmsWebApi.Controllers.BookHello",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.TestRouteController",
+    "Method": "GetFromFormAsync",
+    "RelativePath": "TestRoute/get-from-form",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Author",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.TestRouteController",
+    "Method": "GetFromHeaderAsync",
+    "RelativePath": "TestRoute/get-from-header",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookHello",
+        "Type": "DlmsWebApi.Controllers.BookHello",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.TestRouteController",
+    "Method": "GetAsync",
+    "RelativePath": "TestRoute/payload-check-security",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bookHello",
+        "Type": "DlmsWebApi.Controllers.BookHello",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
