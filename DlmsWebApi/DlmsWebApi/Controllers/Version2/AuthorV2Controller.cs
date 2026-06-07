@@ -1,11 +1,10 @@
-using Microsoft.AspNetCore.Mvc;
 using Asp.Versioning;
 using DlmsWebApi.Business.AuthorBusiness;
-using DlmsWebApi.Shared;
-using DlmsWebApi.Shared.AuthorData;
 using DlmsWebApi.Filters;
+using DlmsWebApi.Shared;
+using Microsoft.AspNetCore.Mvc;
 
-namespace LibrarySystem.Controllers
+namespace DlmsWebApi.Controllers.Version2
 {
     [SecurityAuthentication("AuthorController")]
     [ApiVersion("2.0")]
