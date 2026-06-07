@@ -2,8 +2,10 @@ using DlmsWebApi.Business.AuthorBusiness;
 using DlmsWebApi.Business.BookBusiness;
 using DlmsWebApi.Helpers;
 using DlmsWebApi.Repository.Models;
+using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.BookData;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 //using Microsoft.AspNetCore.Mvc.Rendering;
 
 
@@ -43,6 +45,25 @@ namespace DlmsWebApi.Controllers
         //    await PopulateDropdowns(bookDetails);
         //    return Ok(bookDetails);
         //}
+
+        [HttpGet]
+        [Route("get-author-list-paginated")]
+        public async Task<IActionResult> GetAll([FromQuery] PaginationParams pagination,
+          CancellationToken ct)
+        {
+            var result = await _bookBusiness.GetListPaginated(pagination, ct);
+
+            // Add pagination metadata to response headers
+            Response.Headers.Append("X-Pagination", JsonSerializer.Serialize(new
+            {
+                result.Data.TotalCount,
+                result.Data.TotalPages,
+                result.Data.HasPreviousPage,
+                result.Data.HasNextPage
+            }));
+
+            return Ok(result);
+        }
 
         [HttpPost]
         [Route("add-book")]

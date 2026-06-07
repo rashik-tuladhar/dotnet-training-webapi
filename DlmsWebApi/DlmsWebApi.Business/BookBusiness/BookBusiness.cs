@@ -2,6 +2,8 @@ using DlmsWebApi.Extensions.StringHelper;
 using DlmsWebApi.Repository.BookRepository;
 using DlmsWebApi.Repository.Models;
 using DlmsWebApi.Repository.RepositoryPattern;
+using DlmsWebApi.Shared;
+using DlmsWebApi.Shared.AuthorData;
 using DlmsWebApi.Shared.BookData;
 
 
@@ -101,6 +103,52 @@ namespace DlmsWebApi.Business.BookBusiness
         {
             var result = await _Bookrepository.UpdateStatus(bookId, user);
             return result;
+        }
+
+        public async Task<ApiResponse<PagedResult<BookDetails>>> GetListPaginated(PaginationParams pagination, CancellationToken ct)
+        {
+            // 1) Fetch all books from repository. Current repository exposes a List<Author>,
+            //    so we page in-memory. If the dataset grows, consider adding a repository
+            //    method that returns IQueryable or accepts pagination params to perform
+            //    database-side paging for performance and reduced memory usage.
+            var books = await _Bookrepository.GetList();
+
+            // Honor cancellation request early.
+            ct.ThrowIfCancellationRequested();
+
+            // 2) Compute counts and apply ordering + paging using LINQ on the in-memory list.
+            var totalCount = books?.Count ?? 0;
+
+            var pagedAuthors = books
+                .OrderBy(a => a.BookId) // always order before paging to ensure deterministic results
+                .Skip((pagination.Page - 1) * pagination.PageSize)
+                .Take(pagination.PageSize)
+                .ToList();
+
+            // 3) Map repository Author entities to BookDetails DTOs expected by clients.
+            var bookDetailsList = pagedAuthors.Select(book => new BookDetails
+            {
+                BookId = book.BookId,
+                BookIdString = EncryptionHelper.Encrypt(book.BookId.ToString()),
+
+                Name = book.Name,
+                Author = book.Author,
+                Publication = book.Publication,
+                Status = string.IsNullOrEmpty(book.Status) ? "A" : book.Status,
+                ImageUrl = book.ImageUrl
+            }).ToList();
+
+            // 4) Build paged result and wrap in ApiResponse. Use PagedResult<BookDetails> so Items
+            //    is a simple collection of BookDetails and serializes naturally for clients.
+            var pagedResult = new PagedResult<BookDetails>
+            {
+                Items = bookDetailsList,
+                TotalCount = totalCount,
+                Page = pagination.Page,
+                PageSize = pagination.PageSize
+            };
+
+            return ApiResponse<PagedResult<BookDetails>>.SuccessMessage(pagedResult);
         }
     }
 }

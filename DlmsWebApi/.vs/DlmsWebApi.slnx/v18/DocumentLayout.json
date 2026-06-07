@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.business\\bookbusiness\\bookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|solutionrelative:dlmswebapi.business\\bookbusiness\\bookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.business\\bookbusiness\\ibookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|solutionrelative:dlmswebapi.business\\bookbusiness\\ibookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.business\\authorbusiness\\authorbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|solutionrelative:dlmswebapi.business\\authorbusiness\\authorbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.business\\bookbusiness\\ibookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DEDC20F8-5403-4DE7-841F-0B9F54C89D47}|DlmsWebApi.Business\\DlmsWebApi.Business.csproj|solutionrelative:dlmswebapi.business\\bookbusiness\\ibookbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A25F4EF-57D2-40C9-B49B-8866C98B3457}|DlmsWebApi.Repository\\DlmsWebApi.Repository.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi.repository\\repositorypattern\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,24 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IBookBusiness.cs",
+              "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
+              "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
+              "RelativeToolTip": "DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T12:05:24.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\AuthorController.cs",
+              "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\AuthorController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwD8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-07T11:58:26.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BookController.cs",
               "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\BookController.cs",
               "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\BookController.cs",
               "RelativeToolTip": "DlmsWebApi\\Controllers\\BookController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAnwCMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAvwDUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T11:33:11.768Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Repository.cs",
               "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Repository\\RepositoryPattern\\Repository.cs",
               "RelativeDocumentMoniker": "DlmsWebApi.Repository\\RepositoryPattern\\Repository.cs",
@@ -64,52 +94,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Program.cs",
               "RelativeDocumentMoniker": "DlmsWebApi\\Program.cs",
               "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Program.cs",
               "RelativeToolTip": "DlmsWebApi\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAjwCQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAjwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T11:08:28.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AuthorBusiness.cs",
               "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\AuthorBusiness\\AuthorBusiness.cs",
               "RelativeDocumentMoniker": "DlmsWebApi.Business\\AuthorBusiness\\AuthorBusiness.cs",
               "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\AuthorBusiness\\AuthorBusiness.cs",
               "RelativeToolTip": "DlmsWebApi.Business\\AuthorBusiness\\AuthorBusiness.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAwwEAAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAwwIMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T11:05:56.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IBookBusiness.cs",
-              "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
-              "RelativeDocumentMoniker": "DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
-              "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
-              "RelativeToolTip": "DlmsWebApi.Business\\BookBusiness\\IBookBusiness.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-07T11:22:28.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BookBusiness.cs",
               "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\BookBusiness\\BookBusiness.cs",
               "RelativeDocumentMoniker": "DlmsWebApi.Business\\BookBusiness\\BookBusiness.cs",
               "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi.Business\\BookBusiness\\BookBusiness.cs",
               "RelativeToolTip": "DlmsWebApi.Business\\BookBusiness\\BookBusiness.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAowGUAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-07T11:05:47.169Z",
               "EditorCaption": ""
