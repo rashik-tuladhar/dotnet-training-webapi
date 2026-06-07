@@ -1,6 +1,7 @@
 using DlmsWebApi.Extensions.StringHelper;
 using DlmsWebApi.Repository.BookRepository;
 using DlmsWebApi.Repository.Models;
+using DlmsWebApi.Repository.RepositoryPattern;
 using DlmsWebApi.Shared.BookData;
 
 
@@ -8,11 +9,13 @@ namespace DlmsWebApi.Business.BookBusiness
 {
     public class BookBusiness : IBookBusiness
     {
-        private readonly IBookRepository _bookRepository;
+        private readonly IBookRepository _Bookrepository;
+        private readonly IRepository<Book> _repository;
 
-        public BookBusiness(IBookRepository bookRepository)
+        public BookBusiness(IBookRepository bookRepository,IRepository<Book> repository)
         {
-            _bookRepository = bookRepository;
+            _Bookrepository = bookRepository;
+            _repository = repository;
         }
 
         public async Task<bool> AddBook(BookDetails book)
@@ -31,19 +34,19 @@ namespace DlmsWebApi.Business.BookBusiness
                 Status = book.Status,
                 ImageUrl = book.ImageUrl
             };
-            return await _bookRepository.AddBook(bookEntity);
+            return await _Bookrepository.AddBook(bookEntity);
         }
 
         public async Task<bool> EditBook(BookDetails book)
         {
-            return await _bookRepository.EditBook(book);
+            return await _Bookrepository.EditBook(book);
         }
 
        
 
         public async Task<BookDetails> GetBookDetails(int id)
         {
-            var bookData = await _bookRepository.GetBookDetails(id);
+            var bookData = await _Bookrepository.GetBookDetails(id);
             var bookDetails =  new BookDetails
             {
                 BookId = bookData.BookId,
@@ -60,10 +63,10 @@ namespace DlmsWebApi.Business.BookBusiness
             return bookDetails;
         }
 
-        public async Task<List<BookDetails>> GetBookList()
+        public async Task<List<BookDetails>> GetList()
         {
             List<BookDetails> bookList = new List<BookDetails>();
-            var books = await _bookRepository.GetBookList();
+            var books = await _Bookrepository.GetList();
             foreach (var book in books)
             {
                 bookList.Add(new BookDetails
@@ -96,7 +99,7 @@ namespace DlmsWebApi.Business.BookBusiness
 
         public async Task<bool> UpdateStatus(int bookId, string user)
         {
-            var result = await _bookRepository.UpdateStatus(bookId, user);
+            var result = await _Bookrepository.UpdateStatus(bookId, user);
             return result;
         }
     }

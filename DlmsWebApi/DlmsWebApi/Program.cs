@@ -1,5 +1,6 @@
 using DlmsWebApi;
 using DlmsWebApi.Business.AuthorBusiness;
+using DlmsWebApi.Business.BookBusiness;
 using DlmsWebApi.Extensions.BasicAuthentication;
 using DlmsWebApi.Repository.AuthorRepository;
 using DlmsWebApi.Repository.BookRepository;
@@ -37,7 +38,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddScoped<IBasicAuthService, BasicAuthService>();
 builder.Services.AddScoped<IAuthorBusiness, AuthorBusiness>();
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
-
+builder.Services.AddScoped<IBookRepository, BookRepository>();
+builder.Services.AddScoped<IBookBusiness, BookBusiness>();
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();

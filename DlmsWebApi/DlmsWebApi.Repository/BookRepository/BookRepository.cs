@@ -69,7 +69,7 @@ namespace DlmsWebApi.Repository.BookRepository
             return bookDetails;
         }
 
-        public async Task<List<Book>> GetBookList()
+        public async Task<List<Book>> GetList()
         {
             var bookList = await _context.Books.AsNoTracking().OrderByDescending(x=>x.BookId).ToListAsync();
             return bookList;

@@ -8,7 +8,7 @@ namespace DlmsWebApi.Repository.BookRepository
         Task<bool> AddBook(Book book);
         Task<bool> EditBook(BookDetails book);
         Task<Book> GetBookDetails(int id);
-        Task<List<Book>> GetBookList();
+        Task<List<Book>> GetList();
         Task<bool> UpdateStatus(int bookId, string user);
     }
 }

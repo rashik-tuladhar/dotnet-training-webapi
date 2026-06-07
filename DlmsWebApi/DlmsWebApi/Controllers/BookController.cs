@@ -33,7 +33,7 @@ namespace DlmsWebApi.Controllers
         [Route("get-book-list")]
         public async Task<IActionResult> GetList()
         {
-            var bookList = await _bookBusiness.GetBookList();
+            var bookList = await _bookBusiness.GetList();
             return Ok(bookList);
         }
 
