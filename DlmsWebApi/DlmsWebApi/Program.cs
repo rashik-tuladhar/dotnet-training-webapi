@@ -7,6 +7,7 @@ using DlmsWebApi.Repository.Models;
 using DlmsWebApi.Repository.RepositoryPattern;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
+using Asp.Versioning;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,6 +33,24 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
  options.UseSqlite(connectionString));
+
+// Add API Versioning Services
+builder.Services.AddApiVersioning(options =>
+{
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+    options.ReportApiVersions = true;
+    options.ApiVersionReader = ApiVersionReader.Combine(
+        new QueryStringApiVersionReader("api-version"),
+        new HeaderApiVersionReader("x-api-version"),
+        new UrlSegmentApiVersionReader()
+    );
+})
+.AddApiExplorer(options =>
+{
+    options.GroupNameFormat = "'v'VVV";
+    options.SubstituteApiVersionInUrl = true;
+});
 
 builder.Services.AddScoped<IBasicAuthService, BasicAuthService>();
 builder.Services.AddScoped<IAuthorBusiness, AuthorBusiness>();

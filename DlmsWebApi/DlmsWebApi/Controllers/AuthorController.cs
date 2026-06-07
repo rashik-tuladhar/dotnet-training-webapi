@@ -5,13 +5,15 @@ using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
 using Microsoft.AspNetCore.Mvc;
+using Asp.Versioning;
 
 namespace LibrarySystem.Controllers
 {
     //[ServiceFilter(typeof(BasicAuthFilter))]
     [SecurityAuthentication("AuthorController")]
+    [ApiVersion("1.0")]
     [ApiController]
-    [Route("api/author")]
+    [Route("api/v{version:apiVersion}/author")]
     public class AuthorController : ControllerBase
     {
         private readonly IAuthorBusiness _authorBusiness;
