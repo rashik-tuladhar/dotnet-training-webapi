@@ -5,6 +5,7 @@ using DlmsWebApi.Extensions.StringHelper;
 using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Scalar.AspNetCore.Attributes;
 
@@ -13,8 +14,11 @@ namespace DlmsWebApi.Controllers
 =======
 namespace DlmsWebApi.Controllers.Version1
 >>>>>>> api-versioning:DlmsWebApi/DlmsWebApi/Controllers/Version1/AuthorController.cs
+namespace DlmsWebApi.Controllers
 {
     //[ServiceFilter(typeof(BasicAuthFilter))]
+    //[SecurityAuthentication("AuthorController")]
+    [Authorize(Roles = "Admin")]
     [Deprecated("This API version is deprecated. Please use v2.0 for new features and improvements.")]
     [SecurityAuthentication("AuthorController")]
     [ApiVersion("1.0")]
@@ -78,6 +82,7 @@ namespace DlmsWebApi.Controllers.Version1
             return Ok(result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [Route("add-author")]
         public async Task<IActionResult> Add([FromBody] AuthorDetails author)
@@ -121,19 +126,7 @@ namespace DlmsWebApi.Controllers.Version1
             
         }
 
-        //[HttpGet]
-        //[Route("get-author-details")]
-        //public async Task<IActionResult> Edit([FromQuery] string id)
-        //{
-        //    var authorId = Convert.ToInt32(EncryptionHelper.Decrypt(id));
-        //    var authorDetails = await _authorBusiness.GetDetails(authorId);
-        //    authorDetails.AuthorIdString = EncryptionHelper.Encrypt(authorDetails.AuthorId.ToString());
-        //    return Ok(authorDetails);
-        //}
-
-
-
-
+        [Authorize(Roles = "Admin")]
         [HttpPut]
         [Route("update-author-details")]
         public async Task<IActionResult> Edit([FromBody] AuthorDetails author)
@@ -151,6 +144,7 @@ namespace DlmsWebApi.Controllers.Version1
         }
 
 
+        [Authorize(Roles = "Admin")]
         [HttpPatch]
         [Route("update-author-status")]
         public async Task<IActionResult> UpdateStatus([FromQuery] string id)
