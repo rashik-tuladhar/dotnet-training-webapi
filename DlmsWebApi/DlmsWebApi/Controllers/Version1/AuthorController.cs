@@ -9,11 +9,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Scalar.AspNetCore.Attributes;
 
-<<<<<<< HEAD:DlmsWebApi/DlmsWebApi/Controllers/AuthorController.cs
-namespace DlmsWebApi.Controllers
-=======
-namespace DlmsWebApi.Controllers.Version1
->>>>>>> api-versioning:DlmsWebApi/DlmsWebApi/Controllers/Version1/AuthorController.cs
+
 namespace DlmsWebApi.Controllers
 {
     //[ServiceFilter(typeof(BasicAuthFilter))]
