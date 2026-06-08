@@ -12,11 +12,13 @@ using Scalar.AspNetCore.Attributes;
 
 namespace DlmsWebApi.Controllers
 {
+    //[Authorize]
+
     //[ServiceFilter(typeof(BasicAuthFilter))]
     //[SecurityAuthentication("AuthorController")]
     [Authorize(Roles = "Admin")]
     [Deprecated("This API version is deprecated. Please use v2.0 for new features and improvements.")]
-    [SecurityAuthentication("AuthorController")]
+    //[SecurityAuthentication("AuthorController")]
     [ApiVersion("1.0")]
     [ApiController]
     [Route("api/v{version:apiVersion}/author")]

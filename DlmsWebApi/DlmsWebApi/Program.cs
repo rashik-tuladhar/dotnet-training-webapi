@@ -1,3 +1,5 @@
+using Asp.Versioning;
+using Asp.Versioning.ApiExplorer;
 using DlmsWebApi;
 using DlmsWebApi.Business.AuthorBusiness;
 using DlmsWebApi.Business.BookBusiness;
@@ -7,16 +9,15 @@ using DlmsWebApi.Repository.BookRepository;
 using DlmsWebApi.Repository.Data;
 using DlmsWebApi.Repository.Models;
 using DlmsWebApi.Repository.RepositoryPattern;
-using Microsoft.EntityFrameworkCore;
-using Scalar.AspNetCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Tokens;
-using System.Text;
-using Asp.Versioning;
-using Asp.Versioning.ApiExplorer;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using Scalar.AspNetCore;
 using Swashbuckle.AspNetCore.SwaggerGen;
+using System.Security.Claims;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -63,7 +64,9 @@ builder.Services.AddAuthentication(options =>
         ValidIssuer = builder.Configuration["Jwt:Issuer"] ?? "DlmsWebApiAuthority",
         ValidAudience = builder.Configuration["Jwt:Audience"] ?? "DlmsWebApiClients",
         IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
-        ClockSkew = TimeSpan.Zero
+        ClockSkew = TimeSpan.Zero,
+        RoleClaimType = ClaimTypes.Role,
+        NameClaimType = ClaimTypes.Name
     };
 });
 

@@ -1,19 +1,153 @@
 {
-  "openapi": "3.1.1",
+  "openapi": "3.0.4",
   "info": {
-    "title": "DlmsWebApi | v1",
-    "version": "1.0.0"
+    "title": "DlmsWebApi",
+    "description": "DlmsWebApi HTTP API",
+    "version": "1.0"
   },
-  "servers": [
-    {
-      "url": "https://localhost:7017"
-    },
-    {
-      "url": "http://localhost:5114"
-    }
-  ],
   "paths": {
-    "/api/author/get-author-list": {
+    "/api/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/refresh": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenApiRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenApiRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/TokenApiRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/auth/revoke": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/author/get-author-list": {
       "get": {
         "tags": [
           "Author"
@@ -25,7 +159,7 @@
         }
       }
     },
-    "/api/author/get-author-list-repository-pattern": {
+    "/api/v1/author/get-author-list-repository-pattern": {
       "get": {
         "tags": [
           "Author"
@@ -37,7 +171,7 @@
         }
       }
     },
-    "/api/author/get-author-list-paginated": {
+    "/api/v1/author/get-author-list-paginated": {
       "get": {
         "tags": [
           "Author"
@@ -47,11 +181,7 @@
             "name": "Page",
             "in": "query",
             "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
+              "type": "integer",
               "format": "int32"
             }
           },
@@ -59,11 +189,7 @@
             "name": "PageSize",
             "in": "query",
             "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
+              "type": "integer",
               "format": "int32"
             }
           }
@@ -75,7 +201,7 @@
         }
       }
     },
-    "/api/author/add-author": {
+    "/api/v1/author/add-author": {
       "post": {
         "tags": [
           "Author"
@@ -97,8 +223,7 @@
                 "$ref": "#/components/schemas/AuthorDetails"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -107,7 +232,7 @@
         }
       }
     },
-    "/api/author/get-author-details": {
+    "/api/v1/author/get-author-details": {
       "get": {
         "tags": [
           "Author"
@@ -128,7 +253,7 @@
         }
       }
     },
-    "/api/author/update-author-details": {
+    "/api/v1/author/update-author-details": {
       "put": {
         "tags": [
           "Author"
@@ -150,8 +275,7 @@
                 "$ref": "#/components/schemas/AuthorDetails"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -160,7 +284,7 @@
         }
       }
     },
-    "/api/author/update-author-status": {
+    "/api/v1/author/update-author-status": {
       "patch": {
         "tags": [
           "Author"
@@ -186,6 +310,22 @@
         "tags": [
           "Book"
         ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -197,6 +337,22 @@
       "get": {
         "tags": [
           "Book"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -215,11 +371,7 @@
             "name": "Page",
             "in": "query",
             "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
+              "type": "integer",
               "format": "int32"
             }
           },
@@ -227,12 +379,22 @@
             "name": "PageSize",
             "in": "query",
             "schema": {
-              "pattern": "^-?(?:0|[1-9]\\d*)$",
-              "type": [
-                "integer",
-                "string"
-              ],
+              "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -247,6 +409,22 @@
       "post": {
         "tags": [
           "Book"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -265,8 +443,7 @@
                 "$ref": "#/components/schemas/BookDetails"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -287,6 +464,20 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -300,6 +491,22 @@
       "put": {
         "tags": [
           "Book"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -318,8 +525,7 @@
                 "$ref": "#/components/schemas/BookDetails"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -337,6 +543,20 @@
           {
             "name": "id",
             "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
             "schema": {
               "type": "string"
             }
@@ -368,6 +588,20 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -382,6 +616,22 @@
         "tags": [
           "Publication"
         ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -393,6 +643,22 @@
       "post": {
         "tags": [
           "Publication"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -411,8 +677,7 @@
                 "$ref": "#/components/schemas/PublicationDetails"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -433,6 +698,20 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -446,6 +725,22 @@
       "put": {
         "tags": [
           "Publication"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -464,8 +759,7 @@
                 "$ref": "#/components/schemas/PublicationDetails"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -483,6 +777,20 @@
           {
             "name": "id",
             "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
             "schema": {
               "type": "string"
             }
@@ -504,6 +812,20 @@
           {
             "name": "value",
             "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
             "schema": {
               "type": "string"
             }
@@ -529,6 +851,20 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -542,6 +878,22 @@
       "get": {
         "tags": [
           "TestRoute"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -560,8 +912,7 @@
                 "$ref": "#/components/schemas/BookHello"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -575,9 +926,25 @@
         "tags": [
           "TestRoute"
         ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "requestBody": {
           "content": {
-            "application/x-www-form-urlencoded": {
+            "multipart/form-data": {
               "schema": {
                 "type": "object",
                 "properties": {
@@ -588,10 +955,17 @@
                     "type": "string"
                   }
                 }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Author": {
+                  "style": "form"
+                }
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -612,6 +986,20 @@
             "schema": {
               "$ref": "#/components/schemas/BookHello"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -625,6 +1013,22 @@
       "post": {
         "tags": [
           "TestRoute"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -643,8 +1047,7 @@
                 "$ref": "#/components/schemas/BookHello"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -659,6 +1062,22 @@
           "WeatherForecast"
         ],
         "operationId": "GetWeatherForecast",
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK",
@@ -697,6 +1116,22 @@
         "tags": [
           "WeatherForecast"
         ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -716,6 +1151,20 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {
@@ -729,6 +1178,22 @@
       "post": {
         "tags": [
           "WeatherForecast"
+        ],
+        "parameters": [
+          {
+            "name": "api-version",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "x-api-version",
+            "in": "header",
+            "schema": {
+              "type": "string"
+            }
+          }
         ],
         "requestBody": {
           "content": {
@@ -747,8 +1212,7 @@
                 "type": "string"
               }
             }
-          },
-          "required": true
+          }
         },
         "responses": {
           "200": {
@@ -762,86 +1226,72 @@
     "schemas": {
       "AuthorDetails": {
         "required": [
-          "firstName",
-          "lastName",
           "bio",
-          "dateOfBirth"
+          "dateOfBirth",
+          "firstName",
+          "lastName"
         ],
         "type": "object",
         "properties": {
           "authorId": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "authorIdString": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "firstName": {
+            "minLength": 1,
             "type": "string"
           },
           "middleName": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "lastName": {
+            "minLength": 1,
             "type": "string"
           },
           "bio": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "minLength": 1,
+            "type": "string"
           },
           "dateOfBirth": {
             "type": "string",
             "format": "date"
           },
           "status": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "user": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           }
-        }
+        },
+        "additionalProperties": false
       },
       "BookDetails": {
         "required": [
-          "name",
           "author",
-          "publication",
-          "category",
-          "isbn",
-          "totalCopies",
           "availableCopies",
-          "edition"
+          "category",
+          "edition",
+          "isbn",
+          "name",
+          "publication",
+          "totalCopies"
         ],
         "type": "object",
         "properties": {
           "bookId": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "bookIdString": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "name": {
             "maxLength": 500,
@@ -871,21 +1321,13 @@
           "totalCopies": {
             "maximum": 50,
             "minimum": 1,
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "availableCopies": {
             "maximum": 50,
             "minimum": 1,
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "edition": {
@@ -894,123 +1336,119 @@
             "type": "string"
           },
           "user": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "status": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "imageUrl": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "imageFile": {
-            "oneOf": [
-              {
-                "type": "null"
-              },
-              {
-                "$ref": "#/components/schemas/IFormFile"
-              }
-            ]
+            "type": "string",
+            "format": "binary",
+            "nullable": true
           }
-        }
+        },
+        "additionalProperties": false
       },
       "BookHello": {
         "type": "object",
         "properties": {
           "name": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "author": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           }
-        }
+        },
+        "additionalProperties": false
       },
-      "IFormFile": {
-        "type": [
-          "null",
-          "string"
-        ],
-        "format": "binary"
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "PublicationDetails": {
         "required": [
-          "publicationName",
-          "publicationAddress",
           "contactPersonName",
           "contactPhone",
-          "publicationEmail"
+          "publicationAddress",
+          "publicationEmail",
+          "publicationName"
         ],
         "type": "object",
         "properties": {
           "publicationId": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "publicationIdString": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "publicationName": {
+            "minLength": 1,
             "type": "string"
           },
           "publicationAddress": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "minLength": 1,
+            "type": "string"
           },
           "contactPersonName": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "minLength": 1,
+            "type": "string"
           },
           "contactPhone": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "minLength": 1,
+            "type": "string"
           },
           "publicationEmail": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "minLength": 1,
+            "type": "string"
           },
           "publicationWebsite": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "status": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           },
           "user": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           }
-        }
+        },
+        "additionalProperties": false
+      },
+      "TokenApiRequest": {
+        "type": "object",
+        "properties": {
+          "accessToken": {
+            "type": "string",
+            "nullable": true
+          },
+          "refreshToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
       },
       "WeatherForecast": {
         "type": "object",
@@ -1020,32 +1458,27 @@
             "format": "date"
           },
           "temperatureC": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
+            "type": "integer",
             "format": "int32"
           },
           "temperatureF": {
-            "pattern": "^-?(?:0|[1-9]\\d*)$",
-            "type": [
-              "integer",
-              "string"
-            ],
-            "format": "int32"
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
           },
           "summary": {
-            "type": [
-              "null",
-              "string"
-            ]
+            "type": "string",
+            "nullable": true
           }
-        }
+        },
+        "additionalProperties": false
       }
     }
   },
   "tags": [
+    {
+      "name": "Auth"
+    },
     {
       "name": "Author"
     },

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DlmsWebApi.Extensions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+304a0804af9217fe5fa9f26cdfd92c383c63f8bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa97b285a27ec19e7f9d3fd5d132ec334c60bb86")]
 [assembly: System.Reflection.AssemblyProductAttribute("DlmsWebApi.Extensions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DlmsWebApi.Extensions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

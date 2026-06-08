@@ -1,30 +1,24 @@
 [
   {
-    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
-    "Method": "Add",
-    "RelativePath": "api/author/add-author",
+    "ContainingType": "DlmsWebApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "author",
-        "Type": "DlmsWebApi.Shared.AuthorData.AuthorDetails",
+        "Name": "request",
+        "Type": "DlmsWebApi.Controllers.LoginRequest",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
-    "Method": "Edit",
-    "RelativePath": "api/author/get-author-details",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
+      },
       {
-        "Name": "id",
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -32,72 +26,51 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
-    "Method": "GetList",
-    "RelativePath": "api/author/get-author-list",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
-    "Method": "GetAll",
-    "RelativePath": "api/author/get-author-list-paginated",
-    "HttpMethod": "GET",
+    "ContainingType": "DlmsWebApi.Controllers.AuthController",
+    "Method": "Refresh",
+    "RelativePath": "api/auth/refresh",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Page",
-        "Type": "System.Int32",
+        "Name": "request",
+        "Type": "DlmsWebApi.Controllers.TokenApiRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "PageSize",
-        "Type": "System.Int32",
+        "Name": "x-api-version",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
-    "Method": "GetListRepositoryPattern",
-    "RelativePath": "api/author/get-author-list-repository-pattern",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
-    "Method": "Edit",
-    "RelativePath": "api/author/update-author-details",
-    "HttpMethod": "PUT",
+    "ContainingType": "DlmsWebApi.Controllers.AuthController",
+    "Method": "Revoke",
+    "RelativePath": "api/auth/revoke",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "author",
-        "Type": "DlmsWebApi.Shared.AuthorData.AuthorDetails",
+        "Name": "token",
+        "Type": "System.String",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
-    "Method": "UpdateStatus",
-    "RelativePath": "api/author/update-author-status",
-    "HttpMethod": "PATCH",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
+      },
       {
-        "Name": "id",
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -121,6 +94,16 @@
         "Name": "signature",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -137,6 +120,16 @@
         "Name": "book",
         "Type": "DlmsWebApi.Shared.BookData.BookDetails",
         "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -158,6 +151,16 @@
         "Name": "PageSize",
         "Type": "System.Int32",
         "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -169,7 +172,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -184,6 +198,16 @@
         "Name": "id",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -195,7 +219,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -210,6 +245,16 @@
         "Name": "book",
         "Type": "DlmsWebApi.Shared.BookData.BookDetails",
         "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -224,6 +269,16 @@
     "Parameters": [
       {
         "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -242,6 +297,16 @@
         "Name": "publication",
         "Type": "DlmsWebApi.Shared.PublicationData.PublicationDetails",
         "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -258,6 +323,16 @@
         "Name": "id",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -269,7 +344,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -284,6 +370,16 @@
         "Name": "publication",
         "Type": "DlmsWebApi.Shared.PublicationData.PublicationDetails",
         "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -300,8 +396,133 @@
         "Name": "id",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
+    "Method": "Add",
+    "RelativePath": "api/v1/author/add-author",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "DlmsWebApi.Shared.AuthorData.AuthorDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/author/get-author-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
+    "Method": "GetList",
+    "RelativePath": "api/v1/author/get-author-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/author/get-author-list-paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
+    "Method": "GetListRepositoryPattern",
+    "RelativePath": "api/v1/author/get-author-list-repository-pattern",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
+    "Method": "Edit",
+    "RelativePath": "api/v1/author/update-author-details",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "author",
+        "Type": "DlmsWebApi.Shared.AuthorData.AuthorDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.AuthorController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/v1/author/update-author-status",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DlmsWebApi.Controllers.Version2.AuthorV2Controller",
+    "Method": "GetList",
+    "RelativePath": "api/v2/author/get-author-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {
@@ -316,6 +537,16 @@
         "Name": "value",
         "Type": "System.String",
         "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -330,6 +561,16 @@
     "Parameters": [
       {
         "Name": "value",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -348,6 +589,16 @@
         "Name": "bookHello",
         "Type": "DlmsWebApi.Controllers.BookHello",
         "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -369,6 +620,16 @@
         "Name": "Author",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -384,6 +645,16 @@
       {
         "Name": "bookHello",
         "Type": "DlmsWebApi.Controllers.BookHello",
+        "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -401,6 +672,16 @@
         "Name": "bookHello",
         "Type": "DlmsWebApi.Controllers.BookHello",
         "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -412,7 +693,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[DlmsWebApi.WeatherForecast, DlmsWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -438,6 +730,16 @@
         "Name": "value",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -454,6 +756,16 @@
         "Name": "value",
         "Type": "System.String",
         "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -465,7 +777,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "x-api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]
