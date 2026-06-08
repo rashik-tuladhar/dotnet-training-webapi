@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DlmsWebApi.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c1214c321793cb8612d4ca521ae2a020347cb0c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+304a0804af9217fe5fa9f26cdfd92c383c63f8bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("DlmsWebApi.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DlmsWebApi.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
