@@ -4,6 +4,7 @@ using DlmsWebApi.Caching;
 using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.OutputCaching;
 
 namespace DlmsWebApi.Controllers.Version2
@@ -22,6 +23,7 @@ namespace DlmsWebApi.Controllers.Version2
         }
 
         [HttpGet]
+        [EnableRateLimiting("Author:TokenBucket")]
         [Route("get-author-list")]
         [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "api-version" })]
         [OutputCache(PolicyName = AuthorCacheKeys.AuthorListOutputCachePolicy)]

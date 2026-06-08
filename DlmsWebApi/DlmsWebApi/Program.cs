@@ -10,8 +10,12 @@ using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 using Asp.Versioning;
 using Asp.Versioning.ApiExplorer;
+using System.Net;
+using System.Threading.RateLimiting;
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Primitives;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -46,6 +50,87 @@ builder.Services.AddOutputCache(options =>
             .Expire(TimeSpan.FromSeconds(60))
             .SetVaryByQuery("id", "api-version")
             .Tag(AuthorCacheKeys.AuthorTag));
+});
+
+// Add rate limiting policies (demonstrate all main limiter types)
+builder.Services.AddRateLimiter(options =>
+{
+    // 1) Token-bucket per remote IP (good for general request smoothing)
+    options.AddPolicy("Author:TokenBucket", context =>
+        RateLimitPartition.GetTokenBucketLimiter(
+            context.Connection.RemoteIpAddress?.ToString() ?? "anonymous",
+            _ => new TokenBucketRateLimiterOptions
+            {
+                TokenLimit = 20, // maximum burst size
+                TokensPerPeriod = 10, // tokens added each period
+                ReplenishmentPeriod = TimeSpan.FromMinutes(1),
+                QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
+                QueueLimit = 5
+            }));
+
+    // 2) Fixed-window per IP (simple rate by window)
+    options.AddPolicy("Author:FixedWindow", context =>
+        RateLimitPartition.GetFixedWindowLimiter(
+            context.Connection.RemoteIpAddress?.ToString() ?? "anonymous",
+            _ => new FixedWindowRateLimiterOptions
+            {
+                PermitLimit = 30, // permits per window
+                Window = TimeSpan.FromMinutes(1),
+                QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
+                QueueLimit = 0
+            }));
+
+    // 3) Sliding-window per IP (more even distribution than fixed)
+    options.AddPolicy("Author:SlidingWindow", context =>
+        RateLimitPartition.GetSlidingWindowLimiter(
+            context.Connection.RemoteIpAddress?.ToString() ?? "anonymous",
+            _ => new SlidingWindowRateLimiterOptions
+            {
+                PermitLimit = 50,
+                Window = TimeSpan.FromMinutes(1),
+                SegmentsPerWindow = 10,
+                QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
+                QueueLimit = 0
+            }));
+
+    // 4) Concurrency limiter for write operations (limits concurrent executions)
+    options.AddPolicy("Author:Concurrency", context =>
+        RateLimitPartition.GetConcurrencyLimiter(
+            context.Connection.RemoteIpAddress?.ToString() ?? "anonymous",
+            _ => new ConcurrencyLimiterOptions
+            {
+                PermitLimit = 2, // allows 2 concurrent write operations per client
+                QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
+                QueueLimit = 10
+            }));
+
+    // 5) API-key partitioned fixed-window (partition by X-Api-Key header when present)
+    options.AddPolicy("Author:PerApiKeyFixedWindow", context =>
+    {
+        // Choose API key if present, otherwise fallback to IP
+        var partitionKey = context.Request.Headers.TryGetValue("X-Api-Key", out var values) && !StringValues.IsNullOrEmpty(values)
+            ? values.ToString()
+            : context.Connection.RemoteIpAddress?.ToString() ?? "anonymous";
+
+        return RateLimitPartition.GetFixedWindowLimiter(partitionKey, _ => new FixedWindowRateLimiterOptions
+        {
+            PermitLimit = 60,
+            Window = TimeSpan.FromMinutes(1),
+            QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
+            QueueLimit = 0
+        });
+    });
+
+    // Global rejection handling: return 429 with Retry-After header and a short body
+    options.OnRejected = async (context, ct) =>
+    {
+        context.HttpContext.Response.StatusCode = StatusCodes.Status429TooManyRequests;
+        if (!context.HttpContext.Response.Headers.ContainsKey("Retry-After"))
+        {
+            context.HttpContext.Response.Headers.RetryAfter = "60"; // seconds
+        }
+        await context.HttpContext.Response.WriteAsync("Too Many Requests. Please try again later.", ct);
+    };
 });
 
 var useRedis = builder.Configuration.GetValue<bool>("Cache:UseRedis");
@@ -129,6 +214,7 @@ app.UseHttpsRedirection();
 app.UseCors("AllowFrontend");
 app.UseResponseCaching();
 app.UseOutputCache();
+app.UseRateLimiter();
 
 app.UseAuthorization();
 

@@ -9,6 +9,7 @@ using DlmsWebApi.Shared.AuthorData;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.OutputCaching;
 using Scalar.AspNetCore.Attributes;
+using Microsoft.AspNetCore.RateLimiting;
 
 namespace DlmsWebApi.Controllers.Version1
 {
@@ -32,6 +33,7 @@ namespace DlmsWebApi.Controllers.Version1
         }
 
         [HttpGet]
+        [EnableRateLimiting("Author:TokenBucket")]
         [Route("get-author-list")]
         [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "api-version" })]
         [OutputCache(PolicyName = AuthorCacheKeys.AuthorListOutputCachePolicy)]
@@ -50,6 +52,7 @@ namespace DlmsWebApi.Controllers.Version1
         }
         
         [HttpGet]
+        [EnableRateLimiting("Author:SlidingWindow")]
         [Route("get-author-list-repository-pattern")]
         [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "api-version" })]
         [OutputCache(PolicyName = AuthorCacheKeys.AuthorListOutputCachePolicy)]
@@ -66,6 +69,7 @@ namespace DlmsWebApi.Controllers.Version1
         /// <param name="ct"></param>
         /// <returns></returns>
         [HttpGet]
+        [EnableRateLimiting("Author:FixedWindow")]
         [Route("get-author-list-paginated")]
         [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "page", "pageSize", "api-version" })]
         [OutputCache(Duration = 30, VaryByQueryKeys = new[] { "page", "pageSize", "api-version" }, Tags = new[] { AuthorCacheKeys.AuthorTag })]
@@ -87,6 +91,7 @@ namespace DlmsWebApi.Controllers.Version1
         }
 
         [HttpPost]
+        [EnableRateLimiting("Author:Concurrency")]
         [Route("add-author")]
         public async Task<IActionResult> Add([FromBody] AuthorDetails author)
         {
@@ -103,6 +108,7 @@ namespace DlmsWebApi.Controllers.Version1
         }
 
         [HttpGet]
+        [EnableRateLimiting("Author:PerApiKeyFixedWindow")]
         [Route("get-author-details")]
         [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "id", "api-version" })]
         [OutputCache(PolicyName = AuthorCacheKeys.AuthorDetailsOutputCachePolicy)]
@@ -133,6 +139,7 @@ namespace DlmsWebApi.Controllers.Version1
         }
 
         [HttpPut]
+        [EnableRateLimiting("Author:Concurrency")]
         [Route("update-author-details")]
         public async Task<IActionResult> Edit([FromBody] AuthorDetails author)
         {
@@ -151,6 +158,7 @@ namespace DlmsWebApi.Controllers.Version1
 
 
         [HttpPatch]
+        [EnableRateLimiting("Author:Concurrency")]
         [Route("update-author-status")]
         public async Task<IActionResult> UpdateStatus([FromQuery] string id)
         {
