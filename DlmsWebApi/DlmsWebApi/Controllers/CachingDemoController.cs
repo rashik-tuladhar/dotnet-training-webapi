@@ -37,6 +37,7 @@ public class CachingDemoController : ControllerBase
     }
 
     [HttpGet("authors/memory")]
+    [OutputCache(PolicyName = AuthorCacheKeys.AuthorListOutputCachePolicy)]
     public async Task<IActionResult> GetAuthorsUsingMemoryCache()
     {
         if (_memoryCache.TryGetValue(AuthorCacheKeys.AuthorListMemory, out List<AuthorDetails>? authors))
@@ -54,7 +55,7 @@ public class CachingDemoController : ControllerBase
             Priority = CacheItemPriority.Normal
         };
 
-        _memoryCache.Set(AuthorCacheKeys.AuthorListMemory, authors, cacheOptions);
+        _memoryCache.Set("authors:list:memory", authors, cacheOptions);
         Response.Headers.Append("X-Cache", "Memory MISS");
 
         return Ok(BuildAuthorCacheResponse("IMemoryCache", false, authors));

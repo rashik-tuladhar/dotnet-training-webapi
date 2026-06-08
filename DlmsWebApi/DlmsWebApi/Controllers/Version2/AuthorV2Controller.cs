@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.OutputCaching;
 
 namespace DlmsWebApi.Controllers.Version2
 {
-    [SecurityAuthentication("AuthorController")]
+    //[SecurityAuthentication("AuthorController")]
     [ApiVersion("2.0")]
     [ApiController]
     [Route("api/v{version:apiVersion}/author")]
