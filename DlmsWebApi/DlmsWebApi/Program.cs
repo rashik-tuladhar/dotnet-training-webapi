@@ -65,8 +65,8 @@ builder.Services.AddAuthentication(options =>
         ValidAudience = builder.Configuration["Jwt:Audience"] ?? "DlmsWebApiClients",
         IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
         ClockSkew = TimeSpan.Zero,
-        RoleClaimType = ClaimTypes.Role,
-        NameClaimType = ClaimTypes.Name
+        //RoleClaimType = ClaimTypes.Role,
+        //NameClaimType = ClaimTypes.Name
     };
 });
 

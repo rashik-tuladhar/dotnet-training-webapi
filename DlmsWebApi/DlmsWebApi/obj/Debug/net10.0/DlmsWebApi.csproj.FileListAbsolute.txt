@@ -806,7 +806,6 @@ E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debu
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\staticwebassets.development.json
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\swae.build.ex.cache
-E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\DlmsWebApi.csproj.Up2Date
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\DlmsWebApi.dll
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\refint\DlmsWebApi.dll
@@ -827,3 +826,4 @@ E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\bin\Debu
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Visual Studio\DotnetNew\dotnet-training-webapi\DlmsWebApi\DlmsWebApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

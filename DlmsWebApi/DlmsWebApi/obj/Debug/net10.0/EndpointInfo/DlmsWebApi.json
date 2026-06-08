@@ -305,26 +305,10 @@
         }
       }
     },
-    "/api/book/get-author-list-repository-pattern": {
+    "/api/v1/book/get-book-list-repository-pattern": {
       "get": {
         "tags": [
           "Book"
-        ],
-        "parameters": [
-          {
-            "name": "api-version",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "x-api-version",
-            "in": "header",
-            "schema": {
-              "type": "string"
-            }
-          }
         ],
         "responses": {
           "200": {
@@ -333,26 +317,10 @@
         }
       }
     },
-    "/api/book/get-book-list": {
+    "/api/v1/book/get-book-list": {
       "get": {
         "tags": [
           "Book"
-        ],
-        "parameters": [
-          {
-            "name": "api-version",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "x-api-version",
-            "in": "header",
-            "schema": {
-              "type": "string"
-            }
-          }
         ],
         "responses": {
           "200": {
@@ -361,7 +329,7 @@
         }
       }
     },
-    "/api/book/get-author-list-paginated": {
+    "/api/v1/book/get-author-list-paginated": {
       "get": {
         "tags": [
           "Book"
@@ -382,20 +350,6 @@
               "type": "integer",
               "format": "int32"
             }
-          },
-          {
-            "name": "api-version",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "x-api-version",
-            "in": "header",
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "responses": {
@@ -405,26 +359,10 @@
         }
       }
     },
-    "/api/book/add-book": {
+    "/api/v1/book/add-book": {
       "post": {
         "tags": [
           "Book"
-        ],
-        "parameters": [
-          {
-            "name": "api-version",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "x-api-version",
-            "in": "header",
-            "schema": {
-              "type": "string"
-            }
-          }
         ],
         "requestBody": {
           "content": {
@@ -452,7 +390,7 @@
         }
       }
     },
-    "/api/book/get-book-details": {
+    "/api/v1/book/get-book-details": {
       "get": {
         "tags": [
           "Book"
@@ -464,20 +402,6 @@
             "schema": {
               "type": "string"
             }
-          },
-          {
-            "name": "api-version",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "x-api-version",
-            "in": "header",
-            "schema": {
-              "type": "string"
-            }
           }
         ],
         "responses": {
@@ -487,26 +411,10 @@
         }
       }
     },
-    "/api/book/update-book-details": {
+    "/api/v1/book/update-book-details": {
       "put": {
         "tags": [
           "Book"
-        ],
-        "parameters": [
-          {
-            "name": "api-version",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "x-api-version",
-            "in": "header",
-            "schema": {
-              "type": "string"
-            }
-          }
         ],
         "requestBody": {
           "content": {
@@ -534,7 +442,7 @@
         }
       }
     },
-    "/api/book/update-book-status": {
+    "/api/v1/book/update-book-status": {
       "patch": {
         "tags": [
           "Book"
@@ -543,20 +451,6 @@
           {
             "name": "id",
             "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "api-version",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "x-api-version",
-            "in": "header",
             "schema": {
               "type": "string"
             }
@@ -569,7 +463,7 @@
         }
       }
     },
-    "/api/book": {
+    "/api/v1/book": {
       "get": {
         "tags": [
           "Book"
@@ -585,20 +479,6 @@
           {
             "name": "signature",
             "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "api-version",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "x-api-version",
-            "in": "header",
             "schema": {
               "type": "string"
             }

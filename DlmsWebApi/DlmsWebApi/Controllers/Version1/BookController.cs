@@ -1,21 +1,34 @@
-using DlmsWebApi.Business.AuthorBusiness;
+using System.Text.Json;
+
+using Asp.Versioning;
 using DlmsWebApi.Business.BookBusiness;
+using DlmsWebApi.Extensions.StringHelper;
+
 using DlmsWebApi.Helpers;
 using DlmsWebApi.Repository.Models;
+
 using DlmsWebApi.Shared;
-using DlmsWebApi.Shared.AuthorData;
 using DlmsWebApi.Shared.BookData;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Text.Json;
+using Scalar.AspNetCore.Attributes;
+using EncryptionHelper = DlmsWebApi.Extensions.StringHelper.EncryptionHelper;
 //using Microsoft.AspNetCore.Mvc.Rendering;
 
 
 namespace DlmsWebApi.Controllers
 {
+    [Authorize(Roles = "Admin")]
+    [Deprecated("This API version is deprecated. Please use v2.0 for new features and improvements.")]
     [ApiController]
-    [Route("api/book")]
+
+    [ApiVersion("1.0")]
+
+    [Route("api/v{version:apiVersion}/book")]
+
+    //[Route("api/book")]
     //[Authorize(Roles = "SuperAdmin")]
-    public class BookController : Controller
+    public class BookController : ControllerBase
     {
         private readonly IBookBusiness _bookBusiness;
         //private readonly IAuthorBusiness _authorBusiness;
@@ -33,7 +46,7 @@ namespace DlmsWebApi.Controllers
         }
 
         [HttpGet]
-        [Route("get-author-list-repository-pattern")]
+        [Route("get-book-list-repository-pattern")]
         public async Task<IActionResult> GetListRepositoryPattern()
         {
             var bookList = await _bookBusiness.GetListRepositoryPattern();
@@ -78,7 +91,7 @@ namespace DlmsWebApi.Controllers
         [Route("add-book")]
 
         //[ValidateAntiForgeryToken]
-        public async Task<IActionResult> AddBook([FromBody] BookDetails book)
+        public async Task<IActionResult> AddBook([FromForm] BookDetails book)
         {
             if (book.ImageFile != null)
             {
@@ -121,9 +134,9 @@ namespace DlmsWebApi.Controllers
         [Route("get-book-details")]
         public async Task<IActionResult> EditBook(string id)
         {
-            var bookId = Convert.ToInt32(EncryptionHelper.Decrypt(id));
+            var bookIdV2 = Convert.ToInt32(EncryptionHelper.Decrypt(id));
 
-            var bookDetails = await _bookBusiness.GetBookDetails(bookId);
+            var bookDetails = await _bookBusiness.GetBookDetails(bookIdV2);
             
             await PopulateDropdowns(bookDetails);
             return Ok(bookDetails);
