@@ -1,8 +1,10 @@
 using Asp.Versioning;
 using DlmsWebApi.Business.AuthorBusiness;
+using DlmsWebApi.Caching;
 using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OutputCaching;
 
 namespace DlmsWebApi.Controllers.Version2
 {
@@ -21,6 +23,8 @@ namespace DlmsWebApi.Controllers.Version2
 
         [HttpGet]
         [Route("get-author-list")]
+        [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "api-version" })]
+        [OutputCache(PolicyName = AuthorCacheKeys.AuthorListOutputCachePolicy)]
         public async Task<IActionResult> GetList()
         {
             var authorList = await _authorBusiness.GetList();

@@ -9,3 +9,49 @@ Accept: application/json
 GET {{DlmsWebApi_HostAddress}}/weatherforecast/get-string
 
 ###
+
+GET {{DlmsWebApi_HostAddress}}/api/cache-demo/authors/memory
+Accept: application/json
+
+###
+
+GET {{DlmsWebApi_HostAddress}}/api/cache-demo/authors/distributed
+Accept: application/json
+
+###
+
+GET {{DlmsWebApi_HostAddress}}/api/cache-demo/authors/hybrid
+Accept: application/json
+
+###
+
+GET {{DlmsWebApi_HostAddress}}/api/cache-demo/response/time
+Accept: application/json
+
+###
+
+GET {{DlmsWebApi_HostAddress}}/api/cache-demo/output/time?name=student
+Accept: application/json
+
+###
+
+GET {{DlmsWebApi_HostAddress}}/api/cache-demo/http-headers
+Accept: application/json
+
+###
+
+GET {{DlmsWebApi_HostAddress}}/api/cache-demo/legacy-object-cache/time
+Accept: application/json
+
+###
+
+GET {{DlmsWebApi_HostAddress}}/api/cache-demo/http-headers
+Accept: application/json
+If-None-Match: "cache-demo-v1"
+
+###
+
+DELETE {{DlmsWebApi_HostAddress}}/api/cache-demo/authors
+Accept: application/json
+
+###

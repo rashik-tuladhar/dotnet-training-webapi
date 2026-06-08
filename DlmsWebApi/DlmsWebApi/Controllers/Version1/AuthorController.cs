@@ -1,11 +1,13 @@
 using System.Text.Json;
 using Asp.Versioning;
 using DlmsWebApi.Business.AuthorBusiness;
+using DlmsWebApi.Caching;
 using DlmsWebApi.Extensions.StringHelper;
 using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.OutputCaching;
 using Scalar.AspNetCore.Attributes;
 
 namespace DlmsWebApi.Controllers.Version1
@@ -18,15 +20,21 @@ namespace DlmsWebApi.Controllers.Version1
     [Route("api/v{version:apiVersion}/author")]
     public class AuthorController : ControllerBase
     {
+        private readonly IAuthorCacheInvalidator _authorCacheInvalidator;
         private readonly IAuthorBusiness _authorBusiness;
 
-        public AuthorController(IAuthorBusiness authorBusiness)
+        public AuthorController(
+            IAuthorBusiness authorBusiness,
+            IAuthorCacheInvalidator authorCacheInvalidator)
         {
             _authorBusiness = authorBusiness;
+            _authorCacheInvalidator = authorCacheInvalidator;
         }
 
         [HttpGet]
         [Route("get-author-list")]
+        [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "api-version" })]
+        [OutputCache(PolicyName = AuthorCacheKeys.AuthorListOutputCachePolicy)]
         public async Task<IActionResult> GetList()
         {
             var authorList = await _authorBusiness.GetList();
@@ -43,6 +51,8 @@ namespace DlmsWebApi.Controllers.Version1
         
         [HttpGet]
         [Route("get-author-list-repository-pattern")]
+        [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "api-version" })]
+        [OutputCache(PolicyName = AuthorCacheKeys.AuthorListOutputCachePolicy)]
         public async Task<IActionResult> GetListRepositoryPattern()
         {
             var authorList = await _authorBusiness.GetListRepositoryPattern();
@@ -57,6 +67,8 @@ namespace DlmsWebApi.Controllers.Version1
         /// <returns></returns>
         [HttpGet]
         [Route("get-author-list-paginated")]
+        [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "page", "pageSize", "api-version" })]
+        [OutputCache(Duration = 30, VaryByQueryKeys = new[] { "page", "pageSize", "api-version" }, Tags = new[] { AuthorCacheKeys.AuthorTag })]
         public async Task<IActionResult> GetAll([FromQuery] PaginationParams pagination,
             CancellationToken ct)
         {
@@ -81,6 +93,7 @@ namespace DlmsWebApi.Controllers.Version1
             bool isAdded = await _authorBusiness.Add(author);
             if (isAdded)
             {
+                await _authorCacheInvalidator.ClearAsync(HttpContext.RequestAborted);
                 return Created();
             }
             else
@@ -91,6 +104,8 @@ namespace DlmsWebApi.Controllers.Version1
 
         [HttpGet]
         [Route("get-author-details")]
+        [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "id", "api-version" })]
+        [OutputCache(PolicyName = AuthorCacheKeys.AuthorDetailsOutputCachePolicy)]
         public async Task<IActionResult> Edit([FromQuery] string id)
         {
             ApiResponse<AuthorDetails> response = new ApiResponse<AuthorDetails>();
@@ -125,6 +140,7 @@ namespace DlmsWebApi.Controllers.Version1
             var details = await _authorBusiness.Edit(author);
             if (details)
             {
+                await _authorCacheInvalidator.ClearAsync(HttpContext.RequestAborted);
                 return Created();
             }
             else
@@ -143,6 +159,7 @@ namespace DlmsWebApi.Controllers.Version1
             var isUpdated = await _authorBusiness.UpdateStatus(authorId, user);
             if (isUpdated)
             {
+                await _authorCacheInvalidator.ClearAsync(HttpContext.RequestAborted);
                 return Created();
             }
             else

@@ -1,5 +1,6 @@
 using DlmsWebApi;
 using DlmsWebApi.Business.AuthorBusiness;
+using DlmsWebApi.Caching;
 using DlmsWebApi.Extensions.BasicAuthentication;
 using DlmsWebApi.Repository.AuthorRepository;
 using DlmsWebApi.Repository.Data;
@@ -30,6 +31,39 @@ builder.Services.AddCors(options =>
 // Add services to the container.
 
 builder.Services.AddControllers();
+builder.Services.AddMemoryCache();
+builder.Services.AddResponseCaching();
+builder.Services.AddOutputCache(options =>
+{
+    options.AddPolicy(AuthorCacheKeys.AuthorListOutputCachePolicy, policy =>
+        policy
+            .Expire(TimeSpan.FromSeconds(60))
+            .SetVaryByQuery("api-version")
+            .Tag(AuthorCacheKeys.AuthorTag));
+
+    options.AddPolicy(AuthorCacheKeys.AuthorDetailsOutputCachePolicy, policy =>
+        policy
+            .Expire(TimeSpan.FromSeconds(60))
+            .SetVaryByQuery("id", "api-version")
+            .Tag(AuthorCacheKeys.AuthorTag));
+});
+
+var useRedis = builder.Configuration.GetValue<bool>("Cache:UseRedis");
+var redisConnectionString = builder.Configuration.GetConnectionString("Redis");
+
+if (useRedis && !string.IsNullOrWhiteSpace(redisConnectionString))
+{
+    builder.Services.AddStackExchangeRedisCache(options =>
+    {
+        options.Configuration = redisConnectionString;
+        options.InstanceName = builder.Configuration["Cache:RedisInstanceName"] ?? "DlmsWebApi:";
+    });
+}
+else
+{
+    builder.Services.AddDistributedMemoryCache();
+}
+
 // Configure Swagger/OpenAPI generation and enable API-versioned explorer
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
@@ -61,6 +95,7 @@ builder.Services.AddApiVersioning(options =>
 builder.Services.AddScoped<IBasicAuthService, BasicAuthService>();
 builder.Services.AddScoped<IAuthorBusiness, AuthorBusiness>();
 builder.Services.AddScoped<IAuthorRepository, AuthorRepository>();
+builder.Services.AddScoped<IAuthorCacheInvalidator, AuthorCacheInvalidator>();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
@@ -91,10 +126,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseAuthorization();
-
 app.UseCors("AllowFrontend");
+app.UseResponseCaching();
+app.UseOutputCache();
 
+app.UseAuthorization();
 
 app.MapControllers();
 
