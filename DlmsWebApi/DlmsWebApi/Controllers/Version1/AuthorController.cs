@@ -1,17 +1,27 @@
 using System.Text.Json;
+using Asp.Versioning;
 using DlmsWebApi.Business.AuthorBusiness;
 using DlmsWebApi.Extensions.StringHelper;
 using DlmsWebApi.Filters;
 using DlmsWebApi.Shared;
 using DlmsWebApi.Shared.AuthorData;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Scalar.AspNetCore.Attributes;
 
-namespace LibrarySystem.Controllers
+
+namespace DlmsWebApi.Controllers
 {
+    //[Authorize]
+
     //[ServiceFilter(typeof(BasicAuthFilter))]
-    [SecurityAuthentication("AuthorController")]
+    //[SecurityAuthentication("AuthorController")]
+    [Authorize(Roles = "Admin")]
+    [Deprecated("This API version is deprecated. Please use v2.0 for new features and improvements.")]
+    //[SecurityAuthentication("AuthorController")]
+    [ApiVersion("1.0")]
     [ApiController]
-    [Route("api/author")]
+    [Route("api/v{version:apiVersion}/author")]
     public class AuthorController : ControllerBase
     {
         private readonly IAuthorBusiness _authorBusiness;
@@ -70,6 +80,7 @@ namespace LibrarySystem.Controllers
             return Ok(result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [Route("add-author")]
         public async Task<IActionResult> Add([FromBody] AuthorDetails author)
@@ -113,6 +124,7 @@ namespace LibrarySystem.Controllers
             
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut]
         [Route("update-author-details")]
         public async Task<IActionResult> Edit([FromBody] AuthorDetails author)
@@ -130,6 +142,7 @@ namespace LibrarySystem.Controllers
         }
 
 
+        [Authorize(Roles = "Admin")]
         [HttpPatch]
         [Route("update-author-status")]
         public async Task<IActionResult> UpdateStatus([FromQuery] string id)

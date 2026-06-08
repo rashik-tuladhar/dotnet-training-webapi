@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DlmsWebApi.Repository.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20260601025246_intial-migration")]
-    partial class intialmigration
+    [Migration("20260608110433_AddauthorTable")]
+    partial class AddauthorTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

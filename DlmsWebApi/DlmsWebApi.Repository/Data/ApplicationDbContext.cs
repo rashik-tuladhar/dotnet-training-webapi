@@ -1,4 +1,5 @@
 using DlmsWebApi.Repository.Models;
+
 using Microsoft.EntityFrameworkCore;
 
 namespace DlmsWebApi.Repository.Data
@@ -12,8 +13,9 @@ namespace DlmsWebApi.Repository.Data
 
 
         public DbSet<Author> Author { get; set; }
+        public DbSet<Book> Books { get; set; }
 
-
+        public DbSet<Publication> Publication { get; set; }
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
         //    base.OnModelCreating(modelBuilder);

@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\version1\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\version1\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\helpers\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\helpers\\encryptionhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\version2\\authorv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\version2\\authorv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\version2\\bookv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\version2\\bookv2controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|e:\\visual studio\\dotnetnew\\dotnet-training-webapi\\dlmswebapi\\dlmswebapi\\controllers\\version1\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E53A4549-8D16-C439-9CB1-16DE161009FE}|DlmsWebApi\\DlmsWebApi.csproj|solutionrelative:dlmswebapi\\controllers\\version1\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EncryptionHelper.cs",
+              "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Helpers\\EncryptionHelper.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Helpers\\EncryptionHelper.cs",
+              "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Helpers\\EncryptionHelper.cs",
+              "RelativeToolTip": "DlmsWebApi\\Helpers\\EncryptionHelper.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T17:14:09.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorV2Controller.cs",
+              "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\Version2\\AuthorV2Controller.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\Version2\\AuthorV2Controller.cs",
+              "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\Version2\\AuthorV2Controller.cs",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\Version2\\AuthorV2Controller.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:54:05.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookV2Controller.cs",
+              "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\Version2\\BookV2Controller.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\Version2\\BookV2Controller.cs",
+              "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\Version2\\BookV2Controller.cs",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\Version2\\BookV2Controller.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwBQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:53:39.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\Version1\\BookController.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\Version1\\BookController.cs",
+              "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\Version1\\BookController.cs",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\Version1\\BookController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAvwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:44:41.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\Version1\\AuthorController.cs",
+              "RelativeDocumentMoniker": "DlmsWebApi\\Controllers\\Version1\\AuthorController.cs",
+              "ToolTip": "E:\\Visual Studio\\DotnetNew\\dotnet-training-webapi\\DlmsWebApi\\DlmsWebApi\\Controllers\\Version1\\AuthorController.cs",
+              "RelativeToolTip": "DlmsWebApi\\Controllers\\Version1\\AuthorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T16:06:47.95Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
