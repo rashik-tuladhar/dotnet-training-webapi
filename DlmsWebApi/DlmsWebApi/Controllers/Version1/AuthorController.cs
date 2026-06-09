@@ -15,12 +15,15 @@ namespace DlmsWebApi.Controllers.Version1
 {
     //[ServiceFilter(typeof(BasicAuthFilter))]
     [Deprecated("This API version is deprecated. Please use v2.0 for new features and improvements.")]
-    [SecurityAuthentication("AuthorController")]
+    //[SecurityAuthentication("AuthorController")]
     [ApiVersion("1.0")]
     [ApiController]
     [Route("api/v{version:apiVersion}/author")]
     public class AuthorController : ControllerBase
     {
+        private static readonly Dictionary<string, (int Count, DateTime WindowStart)> _requestCounts = new();
+        private static readonly object _rateLimitLock = new();
+
         private readonly IAuthorCacheInvalidator _authorCacheInvalidator;
         private readonly IAuthorBusiness _authorBusiness;
 
@@ -71,8 +74,8 @@ namespace DlmsWebApi.Controllers.Version1
         [HttpGet]
         [EnableRateLimiting("Author:FixedWindow")]
         [Route("get-author-list-paginated")]
-        [ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "page", "pageSize", "api-version" })]
-        [OutputCache(Duration = 30, VaryByQueryKeys = new[] { "page", "pageSize", "api-version" }, Tags = new[] { AuthorCacheKeys.AuthorTag })]
+        //[ResponseCache(Duration = 30, Location = ResponseCacheLocation.Any, VaryByQueryKeys = new[] { "page", "pageSize", "api-version" })]
+        //[OutputCache(Duration = 30, VaryByQueryKeys = new[] { "page", "pageSize", "api-version" }, Tags = new[] { AuthorCacheKeys.AuthorTag })]
         public async Task<IActionResult> GetAll([FromQuery] PaginationParams pagination,
             CancellationToken ct)
         {
@@ -174,6 +177,50 @@ namespace DlmsWebApi.Controllers.Version1
             {
                 return BadRequest("Failed to update author status");
             }
+        }
+
+        /// <summary>
+        /// A very simple, manual rate limiter without using ASP.NET Core policies.
+        /// Excellent for teaching how rate limiting works under the hood.
+        /// </summary>
+        [HttpGet]
+        [Route("simple-manual-rate-limit")]
+        public IActionResult SimpleManualRateLimit()
+        {
+            var ipAddress = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "unknown";
+            var now = DateTime.UtcNow;
+            var windowSize = TimeSpan.FromSeconds(30); // 30-second window
+            var maxRequests = 3; // Allow 3 requests per window
+
+            lock (_rateLimitLock)
+            {
+                if (_requestCounts.TryGetValue(ipAddress, out var info))
+                {
+                    if (now - info.WindowStart > windowSize)
+                    {
+                        // Window has expired, reset the counter for this IP
+                        _requestCounts[ipAddress] = (1, now);
+                    }
+                    else if (info.Count >= maxRequests)
+                    {
+                        // Still within window and limit exceeded -> Reject
+                        Response.Headers.RetryAfter = (windowSize - (now - info.WindowStart)).TotalSeconds.ToString("F0");
+                        return StatusCode(StatusCodes.Status429TooManyRequests, "Too Many Requests. Please wait and try again.");
+                    }
+                    else
+                    {
+                        // Within window and under limit -> Increment
+                        _requestCounts[ipAddress] = (info.Count + 1, info.WindowStart);
+                    }
+                }
+                else
+                {
+                    // First request ever from this IP
+                    _requestCounts[ipAddress] = (1, now);
+                }
+            }
+
+            return Ok(new { Message = "Success! You are within the rate limit. You have used " + _requestCounts[ipAddress].Count + " out of " + maxRequests + " requests." });
         }
     }
 }

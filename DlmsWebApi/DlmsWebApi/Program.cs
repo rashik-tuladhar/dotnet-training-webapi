@@ -4,16 +4,11 @@ using DlmsWebApi.Caching;
 using DlmsWebApi.Extensions.BasicAuthentication;
 using DlmsWebApi.Repository.AuthorRepository;
 using DlmsWebApi.Repository.Data;
-using DlmsWebApi.Repository.Models;
 using DlmsWebApi.Repository.RepositoryPattern;
 using Microsoft.EntityFrameworkCore;
-using Scalar.AspNetCore;
 using Asp.Versioning;
 using Asp.Versioning.ApiExplorer;
-using System.Net;
 using System.Threading.RateLimiting;
-using Microsoft.AspNetCore.RateLimiting;
-using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.Extensions.Options;
 using Microsoft.Extensions.Primitives;
 using Swashbuckle.AspNetCore.SwaggerGen;
@@ -74,7 +69,7 @@ builder.Services.AddRateLimiter(options =>
             context.Connection.RemoteIpAddress?.ToString() ?? "anonymous",
             _ => new FixedWindowRateLimiterOptions
             {
-                PermitLimit = 30, // permits per window
+                PermitLimit = 2, // permits per window
                 Window = TimeSpan.FromMinutes(1),
                 QueueProcessingOrder = QueueProcessingOrder.OldestFirst,
                 QueueLimit = 0
